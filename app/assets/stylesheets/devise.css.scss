@@ -4,13 +4,17 @@ html, body {
   height: 100%;
 }
 
+.devise-gradient-bg {
+  @include gradient-vertical(#355069, #5E7A9B);
+}
+
 .devise_sessions, .devise_registrations, .devise_passwords {
   &.new, &.create {
-    @include gradient-vertical(#355069, #5E7A9B);
+    @extend .devise-gradient-bg;
   }
 }
 .devise_passwords.edit {
-  @include gradient-vertical(#355069, #5E7A9B);
+  @extend .devise-gradient-bg;
 }
 
 .text-white { color: #fff; }
