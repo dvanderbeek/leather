@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email         = ["earlynovrock@gmail.com"]
   s.description   = %q{Bootstrap tools - UI Kit, Devise Views, and Component Partials}
   s.summary       = %q{Bootstrap tools - UI Kit, Devise Views, and Component Partials}
-  s.homepage      = ""
+  s.homepage      = "https://github.com/dvanderbeek/leather"
   s.license       = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
