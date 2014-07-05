@@ -1,23 +1,26 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'leather/version'
+$:.push File.expand_path("../lib", __FILE__)
 
-Gem::Specification.new do |spec|
-  spec.name          = "leather"
-  spec.version       = Leather::VERSION
-  spec.authors       = ["David Van Der Beek"]
-  spec.email         = ["earlynovrock@gmail.com"]
-  spec.description   = %q{Bootstrap tools - UI Kit, Devise Views, and Component Partials}
-  spec.summary       = %q{Bootstrap tools - UI Kit, Devise Views, and Component Partials}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+# Maintain your gem's version:
+require "leather/version"
 
-  spec.files         = `git ls-files`.split($/)
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
-  spec.require_paths = ["lib"]
+# Describe your gem and declare its dependencies:
+Gem::Specification.new do |s|
+  s.name        = "leather"
+  s.version     = leather::VERSION
+  s.authors       = ["David Van Der Beek"]
+  s.email         = ["earlynovrock@gmail.com"]
+  s.description   = %q{Bootstrap tools - UI Kit, Devise Views, and Component Partials}
+  s.summary       = %q{Bootstrap tools - UI Kit, Devise Views, and Component Partials}
+  s.homepage      = ""
+  s.license       = "MIT"
 
-  spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
+  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.test_files = Dir["test/**/*"]
+
+  s.add_dependency "rails", "~> 4.1.1"
+
+  s.add_development_dependency "sqlite3"
+  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "bootstrap-sass"
+  s.add_development_dependency "devise"
 end

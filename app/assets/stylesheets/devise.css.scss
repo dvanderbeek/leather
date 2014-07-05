@@ -1,0 +1,49 @@
+@import 'bootstrap';
+
+html, body {
+  height: 100%;
+}
+
+.text-white { color: #fff; }
+
+.devise-welcome {
+  @extend .text-center;
+  @extend .text-white;
+  text-shadow: 1px 1px 3px #333;
+  padding: 50px 0 20px 0;
+  h2 {
+    margin-bottom: 50px;
+  }
+  h2, h3 {
+    font-weight: normal;
+  }
+}
+
+.devise_sessions {
+  &.new, &.create {
+    @include gradient-vertical(#355069, #5E7A9B);
+  }
+}
+
+.devise-box {
+  @include border-top-radius($border-radius-base);
+  @include border-bottom-radius($border-radius-base);
+  border: 1px solid #fff;
+  background: #fff;
+  box-shadow: 1px 1px 3px #333;
+  padding: 40px 40px 20px;
+  border-top: 6px solid #6ED5E4;
+  .actions {
+    padding-top: 30px;
+  }
+}
+
+.devise-links {
+  @extend .text-center;
+  @extend .text-white;
+  margin-top: 20px;
+  a {
+    text-decoration: underline;
+    color: #fff;
+  }
+}

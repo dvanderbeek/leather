@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="devise-welcome">
+    <h2>Leather</h2>
+    <h3>Sign in to your account.</h3>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="devise-box">
+        <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+          <div class="form-group" >
+            <%= f.label :email, "Email address" %>
+            <%= f.email_field :email, autofocus: true, class: "form-control" %>
+          </div>
+
+          <div class="form-group">
+            <%= f.label :password %>
+            <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
+          </div>
+
+          <% if devise_mapping.rememberable? -%>
+            <div><%= f.check_box :remember_me %> <%= f.label :remember_me %></div>
+          <% end -%>
+
+          <div class="actions text-center">
+            <%= f.submit "Sign in", class: "btn btn-default" %>
+          </div>
+        <% end %>
+      </div>
+      <p class="devise-links">
+        Don't have an account? <%= link_to "Create one here", new_user_registration_path %>
+      </p>
+    </div>
+  </div>
+</div>
