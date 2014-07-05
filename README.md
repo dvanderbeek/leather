@@ -6,7 +6,7 @@ Adds some useful setup for Rails apps that use Devise and Bootstrap 3. Creates a
 
 This gem assumes you are using the devise and bootstrap-sass gem (Bootstrap 3). Once you have those installed, add this line to your application's Gemfile:
 
-    gem 'leather', git: 'https://github.com/dvanderbeek/leather.git'
+    gem 'leather'
 
 And then execute:
 
