@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Leather::VERSION
   spec.authors       = ["David Van Der Beek"]
   spec.email         = ["earlynovrock@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Bootstrap tools - UI Kit, Devise Views, and Component Partials}
+  spec.summary       = %q{Bootstrap tools - UI Kit, Devise Views, and Component Partials}
   spec.homepage      = ""
   spec.license       = "MIT"
 
