@@ -18,7 +18,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### Installing Devise Views
+
+Run this command to install a set of views for devise that work nicely with Bootstrap 3:
+
+    $ rails g leather:install
+    
+You'll also want to add the styles to your application.css.scss by adding:
+
+    @import 'devise'
+
+### Adding a UI Kit
+
 
 ## Contributing
 
