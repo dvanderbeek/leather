@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :leather2 do
+# task :leather do
 #   # Task goes here
 # end
