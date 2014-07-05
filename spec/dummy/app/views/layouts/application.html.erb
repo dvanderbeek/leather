@@ -8,6 +8,8 @@
 </head>
 <body class="<%= params[:controller].split("/").join("_") %> <%= params[:action] %>">
 
+<%= render 'flash' %>
+
 <%= yield %>
 
 </body>
