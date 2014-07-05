@@ -1,7 +1,8 @@
 <div class="container">
-  <%= render "devise/shared/welcome", subtitle: "Set up your new account today." %>
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
+      <%= render "devise/shared/welcome", subtitle: "Set up your new account today." %>
+
       <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
         <%= devise_error_messages! %>
         
@@ -24,6 +25,7 @@
           <%= f.submit "Create my account", class: "btn btn-default" %>
         </div>
       <% end %>
+      
       <%= render "devise/shared/links" %>
     </div>
   </div>
