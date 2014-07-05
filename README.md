@@ -24,6 +24,10 @@ You'll also want to add the styles to your application.css.scss by including:
 
     @import 'devise.css';
 
+You'll get fully-customizable views that look good by default:
+
+![Screenshot](https://raw.githubusercontent.com/dvanderbeek/leather/master/login.png)
+
 ### Adding a UI Kit
 
 
