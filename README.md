@@ -6,15 +6,11 @@ Adds some useful setup for Rails apps that use Devise and Bootstrap 3. Creates a
 
 Add this line to your application's Gemfile:
 
-    gem 'leather'
+    gem 'leather', git: 'https://github.com/dvanderbeek/leather.git'
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install leather
 
 ## Usage
 
