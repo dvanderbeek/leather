@@ -14,6 +14,7 @@ html, body {
 
 .devise-gradient-bg {
   @include gradient-vertical($devise-bg-gradient-start, $devise-bg-gradient-end);
+  background-attachment: fixed !important;
 }
 
 .devise_sessions, .devise_registrations, .devise_passwords {
