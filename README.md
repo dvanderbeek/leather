@@ -22,7 +22,7 @@ Run this command to install a set of views for devise that work nicely with Boot
     
 You'll also want to add the styles to your application.css.scss by adding:
 
-    @import 'devise';
+    @import 'devise.css';
 
 ### Adding a UI Kit
 
