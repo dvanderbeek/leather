@@ -5,8 +5,8 @@ require "leather/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "leather"
-  s.version     = leather::VERSION
+  s.name          = "leather"
+  s.version       = Leather::VERSION
   s.authors       = ["David Van Der Beek"]
   s.email         = ["earlynovrock@gmail.com"]
   s.description   = %q{Bootstrap tools - UI Kit, Devise Views, and Component Partials}
