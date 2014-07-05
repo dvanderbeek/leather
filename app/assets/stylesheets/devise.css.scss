@@ -4,7 +4,7 @@ html, body {
   height: 100%;
 }
 
-.devise_sessions, .devise_registrations {
+.devise_sessions, .devise_registrations, .devise_passwords {
   &.new, &.create {
     @include gradient-vertical(#355069, #5E7A9B);
   }
