@@ -1,11 +1,16 @@
 @import 'bootstrap';
 
+$white: #fff;
+$devise-bg-gradient-start: #355069;
+$devise-bg-gradient-end:   #5E7A9B;
+$devise-box-border-color:  #6ED5E4;
+
 html, body {
   height: 100%;
 }
 
 .devise-gradient-bg {
-  @include gradient-vertical(#355069, #5E7A9B);
+  @include gradient-vertical($devise-bg-gradient-start, $devise-bg-gradient-end);
 }
 
 .devise_sessions, .devise_registrations, .devise_passwords {
@@ -17,12 +22,12 @@ html, body {
   @extend .devise-gradient-bg;
 }
 
-.text-white { color: #fff; }
+.text-white { color: $white; }
 
 .devise-welcome {
   @extend .text-center;
   @extend .text-white;
-  text-shadow: 1px 1px 3px #333;
+  text-shadow: 1px 1px 3px $gray-dark;
   padding: 50px 0 20px 0;
   h2 {
     margin-bottom: 50px;
@@ -35,11 +40,11 @@ html, body {
 .devise-box {
   @include border-top-radius($border-radius-base);
   @include border-bottom-radius($border-radius-base);
-  border: 1px solid #fff;
-  background: #fff;
-  box-shadow: 1px 1px 3px #333;
+  border: 1px solid $white;
+  background: $white;
+  box-shadow: 1px 1px 3px $gray-dark;
   padding: 40px 40px 20px;
-  border-top: 6px solid #6ED5E4;
+  border-top: 6px solid $devise-box-border-color;
   #error_explanation {
     @extend .alert;
     @include alert-variant($alert-danger-bg, $alert-danger-border, $alert-danger-text);
@@ -59,6 +64,6 @@ html, body {
   margin-top: 20px;
   a {
     text-decoration: underline;
-    color: #fff;
+    color: $white;
   }
 }
