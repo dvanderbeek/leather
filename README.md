@@ -4,13 +4,15 @@ Adds some useful setup for Rails apps that use Devise and Bootstrap 3. Creates a
 
 ## Installation
 
-This gem assumes you are using the devise and bootstrap-sass gem (Bootstrap 3). Once you have those installed, add this line to your application's Gemfile:
+Add this line to your application's Gemfile:
 
     gem 'leather'
 
-And then execute:
+Then execute:
 
     $ bundle
+    
+This will install leather, along with devise and bootstrap-sass as dependencies
 
 ## Usage
 
@@ -20,9 +22,9 @@ Run this command to install a set of views for devise that work nicely with Boot
 
     $ rails g leather:install
     
-You'll also want to add the styles to your application.css.scss by including:
+You'll also want to add the styles (which include bootstrap) to your application.css.scss by including:
 
-    @import 'devise.css';
+    @import 'devise';
     
 And modify your `<body>` tag:
 
