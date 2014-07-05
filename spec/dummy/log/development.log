@@ -9893,3 +9893,201 @@ Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-05 11:16:49 -
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 11:16:49 -0500
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOheqfr1sSwvI+3PT9qrWjCqWEk9AO5s7QWW8PLL38c=", "user"=>{"email"=>"earlynovrock@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'earlynovrock@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (3.2ms)
+  Rendered application/_flash.html.erb (0.1ms)
+Completed 200 OK in 162ms (Views: 13.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/devise.css" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:32 -0500
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOheqfr1sSwvI+3PT9qrWjCqWEk9AO5s7QWW8PLL38c=", "user"=>{"email"=>"earlynovrock@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'earlynovrock@gmail.com' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (2.6ms)
+  Rendered application/_flash.html.erb (0.1ms)
+Completed 200 OK in 101ms (Views: 12.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/devise.css" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 11:17:35 -0500
+
+
+Started POST "/users" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOheqfr1sSwvI+3PT9qrWjCqWEk9AO5s7QWW8PLL38c=", "user"=>{"email"=>"earlynovrock@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users"  WHERE "users"."email" = 'earlynovrock@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered devise/shared/_links.html.erb (0.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.2ms)
+  Rendered application/_flash.html.erb (0.1ms)
+Completed 200 OK in 102ms (Views: 14.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/devise.css" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:38 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:39 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:39 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-07-05 11:18:39 -0500
