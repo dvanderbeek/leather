@@ -36,6 +36,14 @@ html, body {
   box-shadow: 1px 1px 3px #333;
   padding: 40px 40px 20px;
   border-top: 6px solid #6ED5E4;
+  #error_explanation {
+    @extend .alert;
+    @include alert-variant($alert-danger-bg, $alert-danger-border, $alert-danger-text);
+    h2 {
+      margin-top: 0;
+      font-size: 15px;
+    }
+  }
   .actions {
     padding-top: 30px;
   }
