@@ -12,7 +12,20 @@ Then execute:
 
     $ bundle
     
-This will install leather, along with devise and bootstrap-sass as dependencies
+This will install leather, along with devise and bootstrap-sass as dependencies. 
+
+You will need to install devise. The basic steps are to run:
+
+    $ rails g devise:install
+    $ rails g devise User
+
+and make sure you have:
+
+* Flash messages displayed in your application layout
+* A root route set
+* Default URL options for the Devise mailer configured for each environment. An example for `config/environments/development.rb`:
+
+    config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
 ## Usage
 
