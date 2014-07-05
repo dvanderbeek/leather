@@ -1,3 +1,7 @@
+## v0.0.5
+
+* Minor styling updates
+
 ## v0.0.4
 
 * DRY up views, add link to root URL
@@ -5,6 +9,10 @@
 ## v0.0.3
 
 * Fix some style issues
+
+## v0.0.2
+
+* Add homepage to gemspec
 
 ## v0.0.1
 
