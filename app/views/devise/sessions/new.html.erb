@@ -1,8 +1,5 @@
 <div class="container">
-  <div class="devise-welcome">
-    <h2>Leather</h2>
-    <h3>Sign in to your account.</h3>
-  </div>
+  <%= render "devise/shared/welcome", subtitle: "Sign in to your account." %>
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
       <div class="devise-box">
@@ -24,14 +21,12 @@
             </div>
           <% end -%>
 
-          <div class="actions text-center">
+          <div class="actions">
             <%= f.submit "Sign in", class: "btn btn-default" %>
           </div>
         <% end %>
       </div>
-      <p class="devise-links">
-        <%= render "devise/shared/links" %>
-      </p>
+      <%= render "devise/shared/links" %>
     </div>
   </div>
 </div>

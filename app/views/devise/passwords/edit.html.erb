@@ -1,8 +1,5 @@
 <div class="container">
-  <div class="devise-welcome">
-    <h2>Leather</h2>
-    <h3>Change your password.</h3>
-  </div>
+  <%= render "devise/shared/welcome", subtitle: "Change your password." %>
   <div class="row">
     <div class="col-md-6 col-md-offset-3">
       <div class="devise-box">
@@ -20,14 +17,12 @@
             <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" %>
           </div>
 
-          <div class="actions text-center">
+          <div class="actions">
             <%= f.submit "Send instructions", class: "btn btn-default" %>
           </div>
         <% end %>
       </div>
-      <p class="devise-links">
-        <%= render "devise/shared/links" %>
-      </p>
+      <%= render "devise/shared/links" %>
     </div>
   </div>
 </div>

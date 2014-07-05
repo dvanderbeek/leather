@@ -24,14 +24,12 @@
             <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" %>
           </div>
 
-          <div class="actions text-center">
+          <div class="actions">
             <%= f.submit "Create my account", class: "btn btn-default" %>
           </div>
         <% end %>
       </div>
-      <p class="devise-links">
-        <%= render "devise/shared/links" %>
-      </p>
+      <%= render "devise/shared/links" %>
     </div>
   </div>
 </div>
