@@ -12,21 +12,23 @@ html, body {
   height: 100%;
 }
 
-.devise-gradient-bg {
-  @include gradient-vertical($devise-bg-gradient-start, $devise-bg-gradient-end);
-  background-attachment: fixed !important;
-}
-
 .devise_sessions, .devise_registrations, .devise_passwords {
   &.new, &.create {
     @extend .devise-gradient-bg;
+    @extend .devise-box;
   }
 }
 .devise_passwords.edit {
   @extend .devise-gradient-bg;
+  @extend .devise-box;
 }
 
 .text-white { color: $white; }
+
+.devise-gradient-bg {
+  @include gradient-vertical($devise-bg-gradient-start, $devise-bg-gradient-end);
+  background-attachment: fixed !important;
+}
 
 .devise-welcome {
   @extend .text-center;
@@ -50,24 +52,26 @@ html, body {
 }
 
 .devise-box {
-  @include border-top-radius($border-radius-base);
-  @include border-bottom-radius($border-radius-base);
-  border: 1px solid $white;
-  background: $white;
-  box-shadow: 1px 1px 3px $gray-dark;
-  padding: 40px 40px 20px;
-  border-top: 6px solid $devise-box-border-color;
-  #error_explanation {
-    @extend .alert;
-    @include alert-variant($alert-danger-bg, $alert-danger-border, $alert-danger-text);
-    h2 {
-      margin-top: 0;
-      font-size: 15px;
+  form {
+    @include border-top-radius($border-radius-base);
+    @include border-bottom-radius($border-radius-base);
+    border: 1px solid $white;
+    background: $white;
+    box-shadow: 1px 1px 3px $gray-dark;
+    padding: 40px 40px 20px;
+    border-top: 6px solid $devise-box-border-color;
+    #error_explanation {
+      @extend .alert;
+      @include alert-variant($alert-danger-bg, $alert-danger-border, $alert-danger-text);
+      h2 {
+        margin-top: 0;
+        font-size: 15px;
+      }
     }
-  }
-  .actions {
-    @extend .text-center;
-    padding-top: 30px;
+    .actions {
+      @extend .text-center;
+      padding-top: 30px;
+    }
   }
 }
 
