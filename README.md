@@ -22,9 +22,9 @@ Run this command to install a set of views for devise that work nicely with Boot
 
     $ rails g leather:install
     
-You'll also want to add the styles to your application.css.scss by including:
+You'll also want to add the styles (which include bootstrap) to your application.css.scss by including:
 
-    @import 'devise.css';
+    @import 'devise';
     
 And modify your `<body>` tag:
 
