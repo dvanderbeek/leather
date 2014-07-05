@@ -4,6 +4,12 @@ html, body {
   height: 100%;
 }
 
+.devise_sessions, .devise_registrations {
+  &.new, &.create {
+    @include gradient-vertical(#355069, #5E7A9B);
+  }
+}
+
 .text-white { color: #fff; }
 
 .devise-welcome {
@@ -16,12 +22,6 @@ html, body {
   }
   h2, h3 {
     font-weight: normal;
-  }
-}
-
-.devise_sessions {
-  &.new, &.create {
-    @include gradient-vertical(#355069, #5E7A9B);
   }
 }
 

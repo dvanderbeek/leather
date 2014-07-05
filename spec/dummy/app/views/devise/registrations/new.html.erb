@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="devise-welcome">
+    <h2>Leather</h2>
+    <h3>Set up your new account today.</h3>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <div class="devise-box">
+        <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+          <div class="form-group" >
+            <%= f.label :email, "Email address" %>
+            <%= f.email_field :email, autofocus: true, class: "form-control" %>
+          </div>
+
+          <div class="form-group">
+            <%= f.label :password %>
+            <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
+          </div>
+
+          <div class="form-group">
+            <%= f.label :password_confirmation, "Confirm your password" %>
+            <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" %>
+          </div>
+
+          <div class="actions text-center">
+            <%= f.submit "Create my account", class: "btn btn-default" %>
+          </div>
+        <% end %>
+      </div>
+      <p class="devise-links">
+        Already have an account? <%= link_to "Sign in here", new_user_session_path %>
+      </p>
+    </div>
+  </div>
+</div>
