@@ -23,7 +23,7 @@ and make sure you have:
 
 * Flash messages displayed in your application layout
 * A root route set
-* Default URL options for the Devise mailer configured for each environment. An example for `config/environments/development.rb`:
+* Default URL options for the Devise mailer configured for each environment. An example for `config/environments/development.rb` is:
 
     config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
