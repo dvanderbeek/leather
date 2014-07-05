@@ -3,7 +3,7 @@
 
 @import 'bootstrap';
 
-$white: #fff;
+$white:                    #FFFFFF;
 $devise-bg-gradient-start: #355069;
 $devise-bg-gradient-end:   #5E7A9B;
 $devise-box-border-color:  #6ED5E4;
@@ -12,46 +12,41 @@ html, body {
   height: 100%;
 }
 
-.devise_sessions, .devise_registrations, .devise_passwords {
-  &.new, &.create {
-    @extend .devise-gradient-bg;
-    @extend .devise-box;
-  }
-}
-.devise_passwords.edit {
-  @extend .devise-gradient-bg;
-  @extend .devise-box;
-}
-
 .text-white { color: $white; }
 
-.devise-gradient-bg {
+.devise_sessions, .devise_registrations, .devise_passwords {
+  &.new, &.create {
+    @extend .devise;
+  }
+}
+
+.devise_passwords.edit {
+  @extend .devise;
+}
+
+.devise {
   @include gradient-vertical($devise-bg-gradient-start, $devise-bg-gradient-end);
   background-attachment: fixed !important;
-}
-
-.devise-welcome {
-  @extend .text-center;
-  @extend .text-white;
-  text-shadow: 1px 1px 3px $gray-dark;
-  padding: 50px 0 20px 0;
-  h2 {
-    margin-bottom: 50px;
-    a {
-      color: $white;
-      text-decoration: none;
-      @include transition(color 0.25s linear);
-      &:hover {
-        color: darken($white, 20%);
+  .devise-welcome {
+    @extend .text-center;
+    @extend .text-white;
+    text-shadow: 1px 1px 3px $gray-dark;
+    padding: 50px 0 20px 0;
+    h2 {
+      margin-bottom: 50px;
+      a {
+        @extend .text-white;
+        text-decoration: none;
+        @include transition(color 0.25s linear);
+        &:hover {
+          color: darken($white, 20%);
+        }
       }
     }
+    h2, h3 {
+      font-weight: lighter;
+    }
   }
-  h2, h3 {
-    font-weight: lighter;
-  }
-}
-
-.devise-box {
   form {
     @include border-top-radius($border-radius-base);
     @include border-bottom-radius($border-radius-base);
@@ -73,15 +68,15 @@ html, body {
       padding-top: 30px;
     }
   }
-}
-
-.devise-links {
-  @extend .text-center;
-  @extend .text-white;
-  margin-top: 20px;
-  margin-bottom: 70px;
-  a {
-    text-decoration: underline;
-    color: $white;
+  .devise-links {
+    @extend .text-center;
+    @extend .text-white;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    a {
+      text-decoration: underline;
+      @extend .text-white;
+    }
   }
 }
+
