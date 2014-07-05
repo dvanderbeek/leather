@@ -23,6 +23,10 @@ Run this command to install a set of views for devise that work nicely with Boot
 You'll also want to add the styles to your application.css.scss by including:
 
     @import 'devise.css';
+    
+And modify your `<body>` tag:
+
+    <body class="<%= params[:controller].split("/").join("_") %> <%= params[:action] %>">
 
 You'll get fully-customizable views that look good by default:
 
