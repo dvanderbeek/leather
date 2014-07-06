@@ -52,6 +52,8 @@ You'll get fully-customizable views that look good by default:
 
 Leather uses the high_voltage gem to serve static pages. After running `rails g leather:install`, you can visit `localhost:3000/pages/ui_kit` to view the common bootstrap elements that should be styled for use in your designs.
 
+![Screenshot](https://raw.githubusercontent.com/dvanderbeek/leather/master/ui-kit.png)
+
 The leather:install generator will also copy the bootstrap-sass variables file to your `app/assets/stylesheets` folder. This is where you should go first when you want to change a bootstrap default color, size, or other style.
 
 ## Contributing
