@@ -37,6 +37,7 @@ Run this command to install a set of views for devise that work nicely with Boot
     
 You'll also want to add the styles (which include bootstrap) to your application.css.scss by including:
 
+    @import 'bootstrap_variables';
     @import 'devise';
     
 And modify your `<body>` tag:
@@ -50,6 +51,8 @@ You'll get fully-customizable views that look good by default:
 ### UI Kit
 
 Leather uses the high_voltage gem to serve static pages. After running `rails g leather:install`, you can visit `localhost:3000/pages/ui_kit` to view the common bootstrap elements that should be styled for use in your designs.
+
+The leather:install generator will also copy the bootstrap-sass variables file to your `app/assets/stylesheets` folder. this is where you should go first when you want to change a bootstrap default color, size, or other style.
 
 ## Contributing
 
