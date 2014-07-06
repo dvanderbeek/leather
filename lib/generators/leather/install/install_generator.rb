@@ -13,5 +13,9 @@ module Leather
     def copy_ui_kit_styles
       copy_file("assets/stylesheets/bootstrap_variables.css.scss", Rails.root.join("app", "assets", "stylesheets", "bootstrap_variables.css.scss"))
     end
+
+    def copy_high_voltage_config
+      copy_file("config/initializers/high_voltage.rb", Rails.root.join("config", "initializers", "high_voltage.rb"))
+    end
   end
 end

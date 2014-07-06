@@ -23,6 +23,11 @@ html, body {
   @extend .devise;
 }
 
+// For compatibility with Flutie body_class
+.devise-sessions-new, .devise-sessions-create, .devise-registrations-new, .devise-registrations-create, .devise-passwords-new, .devise-passwords-create, .devise-passwords-edit {
+  @extend .devise;
+}
+
 .devise {
   @include gradient-vertical($devise-bg-gradient-start, $devise-bg-gradient-end);
   background-attachment: fixed !important;
