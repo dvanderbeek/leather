@@ -3,7 +3,11 @@ module Leather
     source_root File.expand_path('../../../../../app/views', __FILE__)
 
     def copy_views
-       directory("devise", Rails.root.join("app", "views", "devise"))
+      directory("devise", Rails.root.join("app", "views", "devise"))
+    end
+
+    def copy_ui_kit
+      directory("pages", Rails.root.join("app", "views", "pages"))
     end
   end
 end
