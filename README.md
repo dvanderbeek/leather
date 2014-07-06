@@ -49,7 +49,7 @@ You'll get fully-customizable views that look good by default:
 
 ### UI Kit
 
-Leather uses the high_voltage gem to run simple static pages. After running `rails g leather:install`, you can visit `localhost:3000/pages/ui_kit` to view the common bootstrap elements that should be styled for use in your designs.
+Leather uses the high_voltage gem to serve static pages. After running `rails g leather:install`, you can visit `localhost:3000/pages/ui_kit` to view the common bootstrap elements that should be styled for use in your designs.
 
 ## Contributing
 
