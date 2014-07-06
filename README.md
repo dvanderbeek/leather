@@ -47,8 +47,9 @@ You'll get fully-customizable views that look good by default:
 
 ![Screenshot](https://raw.githubusercontent.com/dvanderbeek/leather/master/login.png)
 
-### Adding a UI Kit
+### UI Kit
 
+Leather uses the high_voltage gem to run simple static pages. After running `rails g leather:install`, you can visit `localhost:3000/pages/ui_kit` to view the common bootstrap elements that should be styled for use in your designs.
 
 ## Contributing
 
