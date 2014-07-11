@@ -3,7 +3,7 @@
 
 - case container_mode
   - when :with
-    %nav.navbar.navbar-default
+    %nav.navbar{ class: html_options[:class] }
       .container
         .row.clearfix
           .column.col-md-12
@@ -21,7 +21,7 @@
     .container
       .row.clearfix
         .column.col-md-12
-          %nav.navbar.navbar-default
+          %nav.navbar{ class: html_options[:class] }
             .navbar-header
               %button.navbar-toggle{data:{toggle:'collapse', target:'#navbar-to-collapse'},type:'button'}
                 %span.sr-only
@@ -33,7 +33,7 @@
             .collapse.navbar-collapse#navbar-to-collapse
               = block
   - else
-    %nav.navbar.navbar-default
+    %nav.navbar{ class: html_options[:class] }
       .navbar-header
         %button.navbar-toggle{data:{toggle:'collapse', target:'#navbar-to-collapse'},type:'button'}
           %span.sr-only

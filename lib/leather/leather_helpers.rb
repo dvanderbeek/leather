@@ -17,6 +17,7 @@ module Leather
     end
 
     def navbar(title, brand_link, html_options = {}, &block)
+      html_options = { class: "navbar-default" }.merge(html_options)
       render partial: 'leather/navbar', locals: { title: title, brand_link: brand_link, block: capture(&block), html_options: html_options }
     end
 
