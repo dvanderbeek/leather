@@ -1,6 +1,6 @@
 module Leather
   module LeatherHelpers
-    def modal_toggle(text, id, html_options = {})
+    def modal_toggle(text, id = 'modal', html_options = {})
       link_to text, "##{id}", data: { toggle: "modal" }, class: html_options[:class]
     end
 
