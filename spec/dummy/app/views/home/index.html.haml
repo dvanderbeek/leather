@@ -19,5 +19,8 @@
   %p Find me in app/views/home/index.html.erb
 
   = modal_toggle "Modal", "custom-id", class: "btn btn-primary"
-  = modal "Launch Modal", "custom-id" do
-    Hi
+  = modal "custom-id" do
+    = modal_header "Title"
+    = modal_body do
+      BODY
+    = modal_footer "Close Text"

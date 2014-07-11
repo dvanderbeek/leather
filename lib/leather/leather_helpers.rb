@@ -4,8 +4,20 @@ module Leather
       link_to text, "##{id}", data: { toggle: "modal" }, class: html_options[:class]
     end
 
-    def modal(title = '', id = 'modal', close_text = 'Close', html_options = {}, &block)
-      render partial: 'leather/modal', locals: { id: id, close_text: close_text, title: title, block: capture(&block), html_options: html_options }
+    def modal(id = 'modal', html_options = {}, &block)
+      render partial: 'leather/modal', locals: { id: id, block: capture(&block), html_options: html_options }
+    end
+
+    def modal_header(title = '', &block)
+      render partial: 'leather/modal_header', locals: { title: title }
+    end
+
+    def modal_body(&block)
+      render partial: 'leather/modal_body', locals: { block: capture(&block) }
+    end
+
+    def modal_footer(close_text = '')
+      render partial: 'leather/modal_footer', locals: { close_text: close_text }
     end
 
     def nav_item(text, href, options = {})
