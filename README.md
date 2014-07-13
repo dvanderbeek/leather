@@ -58,9 +58,7 @@ The leather:install generator will also copy the bootstrap-sass variables file t
 
 ### Devise Helpers
 
-Leather includes helper methods and view partials to help make it easy to use Bootstrap components in your views. 
- 
-* `nav_item`
+Leather includes helper methods and view partials to help make it easy to use Bootstrap components in your views. See the wiki for instructions and examples.
 
 ## Contributing
 
