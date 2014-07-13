@@ -20,14 +20,6 @@ module Leather
       render partial: 'leather/modal_footer', locals: { close_text: close_text }
     end
 
-    def nav_item(text, href, options = {})
-      render partial: 'leather/nav_item', locals: { text: text, href: href, options: options }
-    end
-
-    def nav_list(html_options = {}, &block)
-      render partial: 'leather/nav_list', locals: { block: capture(&block), html_options: html_options }
-    end
-
     def navbar(title, brand_link, html_options = {}, &block)
       html_options = { class: "navbar-default" }.merge(html_options)
       render partial: 'leather/navbar', locals: { title: title, brand_link: brand_link, block: capture(&block), html_options: html_options }
@@ -43,8 +35,16 @@ module Leather
       navbar(html_options, &block)
     end
 
-    def dropdown_nav_item(text, href, active = false, &block)
-      render partial: 'leather/dropdown_nav_item', locals: { block: capture(&block), text: text, href: href, active: active }
+    def nav_list(html_options = {}, &block)
+      render partial: 'leather/nav_list', locals: { block: capture(&block), html_options: html_options }
+    end
+
+    def nav_item(text, href, options = {})
+      render partial: 'leather/nav_item', locals: { text: text, href: href, options: options }
+    end
+
+    def dropdown_nav_item(text, href, options = {}, &block)
+      render partial: 'leather/dropdown_nav_item', locals: { block: capture(&block), text: text, href: href, options: options }
     end
   end
 end

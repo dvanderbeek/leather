@@ -1,2 +1,2 @@
-%li{ class: current_page?(href) ? 'active' : '' }
+%li{ class: active_class(href, options) }
   =link_to text, href, options
