@@ -16,8 +16,8 @@ module Leather
       render partial: 'leather/modal_body', locals: { block: capture(&block) }
     end
 
-    def modal_footer(close_text = '')
-      render partial: 'leather/modal_footer', locals: { close_text: close_text }
+    def modal_footer(&block)
+      render partial: 'leather/modal_footer', locals: { block: capture(&block) }
     end
 
     def navbar(title, brand_link, html_options = {}, &block)

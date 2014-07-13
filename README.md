@@ -56,6 +56,12 @@ Leather uses the high_voltage gem to serve static pages. After running `rails g 
 
 The leather:install generator will also copy the bootstrap-sass variables file to your `app/assets/stylesheets` folder. This is where you should go first when you want to change a bootstrap default color, size, or other style.
 
+### Devise Helpers
+
+Leather includes helper methods and view partials to help make it easy to use Bootstrap components in your views. 
+ 
+* `nav_item`
+
 ## Contributing
 
 1. Fork it

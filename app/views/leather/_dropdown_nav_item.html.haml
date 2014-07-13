@@ -1,7 +1,7 @@
 - id = Time.now.to_f
 %li{ class: "#{active_class(href, options)} dropdown" }
-  %a.dropdown-toggle{:id => id, :href=>href, :data => {:target => '#', :toggle => 'dropdown'}}
+  %a.dropdown-toggle{ id: id, href: href, data: { target: '#', toggle: 'dropdown'} }
     = text
     %b.caret
-  %ul.dropdown-menu{:role => 'menu', :aria => {:labelledby => id}}
+  %ul.dropdown-menu{ role: 'menu', aria: { labelledby: id } }
     = block

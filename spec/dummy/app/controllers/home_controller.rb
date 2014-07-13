@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @current_nav = "home"
+    @current_navs[:main]      = "home"
+    @current_navs[:secondary] = "dolor"
   end
 end

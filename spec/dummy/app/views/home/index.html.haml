@@ -4,7 +4,7 @@
       = nav_item 'Ipsum', '#'
       = nav_item 'Dolor', '#'
       = nav_item 'Sit', '#'
-    = nav_item 'Home', '#', current_nav: "home"  
+    = nav_item 'Home', '#', current_nav: [:main, "home"]
     = nav_item 'Dolor', '#'
     = nav_item 'Sit', '#'
   = nav_list class: 'navbar-right' do
@@ -23,4 +23,6 @@
     = modal_header "Title"
     = modal_body do
       BODY
-    = modal_footer "Close Text"
+    = modal_footer do
+      %button.btn.btn-default{ data: { dismiss: "modal" }, type: "button" } Cancel
+      %button.btn.btn-primary{ type: "button" } Save changes
