@@ -4,8 +4,8 @@
       = nav_item 'Ipsum', '#'
       = nav_item 'Dolor', '#'
       = nav_item 'Sit', '#'
-    = nav_item 'Home', '#', nav_id: [:main, "home"]
-    = nav_item 'Dolor', '#'
+    = nav_item 'Home', '#', nav_id: [:home, :main]
+    = nav_item 'Dolor', '#', nav_id: [:dolor, :secondary]
     = nav_item 'Sit', '#'
   = nav_list class: 'navbar-right' do
     - if user_signed_in?
