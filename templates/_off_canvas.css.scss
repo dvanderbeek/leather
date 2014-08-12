@@ -21,7 +21,7 @@ $off-canvas-color: #333;
 .off-canvas-show-right {
   position: relative;
   right: $off-canvas-width;
-  overflow: hidden;
+  overflow-x: hidden;
   .off-canvas-right {
     right: 0;
   }
@@ -30,7 +30,7 @@ $off-canvas-color: #333;
 .off-canvas-show-left {
   position: relative;
   left: $off-canvas-width;
-  overflow: hidden;
+  overflow-x: hidden;
   .off-canvas-left {
     left: 0;
   }
