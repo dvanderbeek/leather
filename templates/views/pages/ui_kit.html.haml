@@ -46,12 +46,13 @@
 
 .container
   = link_to "Left", "#", data: { toggle: "off-canvas", side: "left"}, class: "btn btn-primary"
-  .off-canvas.off-canvas-left
-    TEST
   = link_to "Right", "#", data: { toggle: "off-canvas", side: "right"}, class: "btn btn-primary"
-  .off-canvas.off-canvas-right
-    TEST
-    
+  
+.off-canvas.off-canvas-left
+  TEST
+.off-canvas.off-canvas-right
+  TEST
+
 .jumbotron
   .container
     %h1 Hello, world!
