@@ -1,7 +1,7 @@
-= navbar "Leather", root_url, container_mode: :with, class: "navbar-default" do
+= navbar "Leather", root_path, container_mode: :with, class: "navbar-default" do
   = nav_list do
-    = nav_item 'Home', root_url
-    = nav_item 'UI Kit', '/pages/ui_kit'
+    = nav_item 'Home', root_path
+    = nav_item 'UI Kit', page_path('ui_kit')
   = nav_list class: 'navbar-right' do
     - if user_signed_in?
       = nav_item 'Sign Out', destroy_user_session_path, method: :delete
