@@ -1,0 +1,37 @@
+$off-canvas-width: 300px;
+$off-canvas-bg-color: #f1f1f1;
+$off-canvas-color: #333;
+
+.off-canvas {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 10000;
+  width: $off-canvas-width;
+  background: $off-canvas-bg-color;
+  color: $off-canvas-color;
+  &.off-canvas-right {
+    right: -$off-canvas-width;
+  }
+  &.off-canvas-left {
+    left: -$off-canvas-width;
+  }
+}
+  
+.off-canvas-show-right {
+  position: relative;
+  right: $off-canvas-width;
+  overflow: hidden;
+  .off-canvas-right {
+    right: 0;
+  }
+}
+
+.off-canvas-show-left {
+  position: relative;
+  left: $off-canvas-width;
+  overflow: hidden;
+  .off-canvas-left {
+    left: 0;
+  }
+}

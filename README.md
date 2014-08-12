@@ -39,6 +39,7 @@ You'll also want to add the styles (which include bootstrap) to your application
 
     @import 'bootstrap_variables';
     @import 'devise';
+    @import 'off_canvas';
     
 And modify your `<body>` tag:
 
