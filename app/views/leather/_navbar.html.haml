@@ -5,18 +5,16 @@
   - when :with
     %nav.navbar{ class: html_options[:class] }
       .container
-        .row.clearfix
-          .column.col-md-12
-            .navbar-header
-              %button.navbar-toggle{data:{toggle:'collapse', target:'#navbar-to-collapse'},type:'button'}
-                %span.sr-only
-                  Toggle navigation
-                %span.icon-bar
-                %span.icon-bar
-                %span.icon-bar
-              = link_to title, brand_link, :class => 'navbar-brand'
-            .collapse.navbar-collapse#navbar-to-collapse
-              = block
+        .navbar-header
+          %button.navbar-toggle{data:{toggle:'collapse', target:'#navbar-to-collapse'},type:'button'}
+            %span.sr-only
+              Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          = link_to title, brand_link, :class => 'navbar-brand'
+        .collapse.navbar-collapse#navbar-to-collapse
+          = block
   - when :in
     .container
       .row.clearfix
