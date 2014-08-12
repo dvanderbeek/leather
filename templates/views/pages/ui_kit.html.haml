@@ -44,15 +44,6 @@
       %li.divider
       = nav_item 'Separated link', '#'
 
-.container
-  = link_to "Left", "#", data: { toggle: "off-canvas", side: "left"}, class: "btn btn-primary"
-  = link_to "Right", "#", data: { toggle: "off-canvas", side: "right"}, class: "btn btn-primary"
-  
-.off-canvas.off-canvas-left
-  TEST
-.off-canvas.off-canvas-right
-  TEST
-
 .jumbotron
   .container
     %h1 Hello, world!
@@ -67,6 +58,15 @@
       %a{href: "#"} Library
     %li.active Data
 .container
+  %h1.page-header Off-Canvas Menus
+  = link_to "Left", "#", data: { toggle: "off-canvas", side: "left"}, class: "btn btn-primary"
+  = link_to "Right", "#", data: { toggle: "off-canvas", side: "right"}, class: "btn btn-primary"
+
+  .off-canvas.off-canvas-left
+    TEST
+  .off-canvas.off-canvas-right
+    TEST
+
   %h1.page-header Typography
   %h3 Headings
   %h1

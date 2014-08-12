@@ -1,5 +1,6 @@
 $ ->
-  $(document).on 'click', '[data-toggle="off-canvas"]', ->
+  $(document).on 'click', '[data-toggle="off-canvas"]', (e) ->
+    e.preventDefault()
     side = $(this).data('side')
     if side == "left"
       $('body').removeClass "off-canvas-show-right"

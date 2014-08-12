@@ -17,6 +17,10 @@ $off-canvas-color: #333;
     left: -$off-canvas-width;
   }
 }
+
+html, body {
+  overflow-x: hidden;
+}
   
 .off-canvas-show-right {
   position: relative;
