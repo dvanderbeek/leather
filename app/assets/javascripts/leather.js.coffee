@@ -7,16 +7,27 @@ $ ->
   $("#off-canvas-wrapper, .fixed").bind "mouseup", ->
     return
 
-  $(document).on 'click', '[data-toggle="off-canvas"]', (e) ->
+  $(document).on 'click touchstart', '[data-toggle="off-canvas"]', (e) ->
+    e.stopPropagation()
     e.preventDefault()
-    side = $(this).data('side')
-    if side == "left"
-      $('body').removeClass "off-canvas-show-right"
-    if side == "right"
-      $('body').removeClass "off-canvas-show-left"
-    $('body').toggleClass("off-canvas-show-#{side}")
+    if e.handled != true
+      side = $(this).data('side')
+      if side == "left"
+        $('body').removeClass "off-canvas-show-right"
+      if side == "right"
+        $('body').removeClass "off-canvas-show-left"
+      $('body').toggleClass("off-canvas-show-#{side}")
+      e.handled = true
+    else
+      false
 
-  $('body').click (e) ->
-    unless ($(e.target).hasClass("off-canvas") || $(e.target).data('toggle') == "off-canvas")
-      $(this).removeClass("off-canvas-show-right")
-      $(this).removeClass("off-canvas-show-left")
+  $(document).on 'click touchstart', 'body', (e) ->
+    e.stopPropagation()
+    e.preventDefault()
+    if e.handled != true
+      unless ($(e.target).hasClass("off-canvas") || $(e.target).data('toggle') == "off-canvas")
+        $(this).removeClass("off-canvas-show-right")
+        $(this).removeClass("off-canvas-show-left")
+      e.handled = true
+    else
+      false
