@@ -17,6 +17,8 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib,templates}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
+  s.add_runtime_dependency 'sass', '~> 3.2'
+  
   s.add_dependency "rails", "~> 4.1.1"
   s.add_dependency "bootstrap-sass", "~> 3.2.0"
   s.add_dependency "devise"

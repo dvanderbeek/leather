@@ -1,6 +1,6 @@
-$off-canvas-width: 300px;
-$off-canvas-bg-color: #f1f1f1;
-$off-canvas-color: #333;
+html, body {
+  overflow-x: hidden;
+}
 
 .off-canvas {
   position: fixed;
@@ -17,15 +17,11 @@ $off-canvas-color: #333;
     left: -$off-canvas-width;
   }
 }
-
-html, body {
-  overflow-x: hidden;
-}
   
 .off-canvas-show-right {
   position: relative;
   right: $off-canvas-width;
-  overflow-x: hidden;
+  overflow: hidden;
   .off-canvas-right {
     right: 0;
   }
@@ -34,7 +30,7 @@ html, body {
 .off-canvas-show-left {
   position: relative;
   left: $off-canvas-width;
-  overflow-x: hidden;
+  overflow: hidden;
   .off-canvas-left {
     left: 0;
   }
