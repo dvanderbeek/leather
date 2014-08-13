@@ -22,7 +22,8 @@ $ ->
       false
 
   $(document).on 'click touchstart', 'body', (e) ->
-    if e.handled != true
+    if $('body').hasClass("off-canvas-show-left") || $('body').hasClass("off-canvas-show-right") and e.handled != true
+      e.preventDefault()
       unless ($(e.target).hasClass("off-canvas") || $(e.target).data('toggle') == "off-canvas")
         $(this).removeClass("off-canvas-show-right")
         $(this).removeClass("off-canvas-show-left")
