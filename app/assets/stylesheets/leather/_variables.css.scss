@@ -1,9 +1,9 @@
-$white:                    #FFFFFF;
+$white:                    #ffffff !default;
 
-$devise-bg-gradient-start: #355069;
-$devise-bg-gradient-end:   #5E7A9B;
-$devise-box-border-color:  #6ED5E4;
+$devise-bg-gradient-start: #355069 !default;
+$devise-bg-gradient-end:   #5E7A9B !default;
+$devise-box-border-color:  #6ED5E4 !default;
 
-$off-canvas-width: 300px;
-$off-canvas-bg-color: #f1f1f1;
-$off-canvas-color: #333;
+$off-canvas-width:         300px   !default;
+$off-canvas-bg-color:      #f1f1f1 !default;
+$off-canvas-color:         #333333 !default;
