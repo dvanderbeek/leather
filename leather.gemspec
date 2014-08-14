@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Leather::VERSION
   s.authors     = ["David Van Der Beek"]
   s.email       = ["david@flyoverworks.com"]
-  s.homepage    = "github.com/dvanderbeek/leather"
+  s.homepage    = "http://www.github.com/dvanderbeek/leather"
   s.summary     = "Bootstrap tools - UI Kit, Devise Views, and Component Partials"
   s.description = "Bootstrap tools - UI Kit, Devise Views, and Component Partials"
   s.license     = "MIT"
