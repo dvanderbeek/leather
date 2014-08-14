@@ -1,6 +1,9 @@
 module Leather
-  class ApplicationController < ActionController::Base
+  class ApplicationController < ::ApplicationController
+    layout 'application'
+
     def ui_kit
+      set_tab :home
     end
   end
 end

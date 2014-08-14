@@ -1,0 +1,45 @@
+- container_mode = html_options[:container_mode]
+- html_options[:container_mode] = nil
+- id = SecureRandom.hex(10)
+
+- case container_mode
+  - when :with
+    %nav.navbar{ class: html_options[:class] }
+      .container
+        .navbar-header
+          %button.navbar-toggle{ data: { toggle:'collapse', target:"#navbar-#{id}" }, type: 'button'}
+            %span.sr-only
+              Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          = link_to title, brand_link, :class => 'navbar-brand'
+        .collapse.navbar-collapse{ id: "navbar-#{id}" }
+          = block
+  - when :in
+    .container
+      .row.clearfix
+        .column.col-md-12
+          %nav.navbar{ class: html_options[:class] }
+            .navbar-header
+              %button.navbar-toggle{ data: { toggle:'collapse', target:"#navbar-#{id}" }, type: 'button'}
+                %span.sr-only
+                  Toggle navigation
+                %span.icon-bar
+                %span.icon-bar
+                %span.icon-bar
+              = link_to title, brand_link, :class => 'navbar-brand'
+            .collapse.navbar-collapse{ id: "navbar-#{id}" }
+              = block
+  - else
+    %nav.navbar{ class: html_options[:class] }
+      .navbar-header
+        %button.navbar-toggle{ data: { toggle:'collapse', target:"#navbar-#{id}" }, type: 'button'}
+          %span.sr-only
+            Toggle navigation
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        = link_to title, brand_link, :class => 'navbar-brand'
+      .collapse.navbar-collapse{ id: "navbar-#{id}" }
+        = block

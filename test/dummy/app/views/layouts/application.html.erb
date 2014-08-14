@@ -6,8 +6,9 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="<%= params[:controller].split("/").join("_") %> <%= params[:action] %>">
 
+<%= render 'navigation' %>
 <%= yield %>
 
 </body>
