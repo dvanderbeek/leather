@@ -18,15 +18,12 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.1.4"
-  s.add_dependency "haml-rails"
-  s.add_dependency "devise"
-  s.add_dependency "high_voltage"
-  s.add_dependency "bootstrap-sass", "~> 3.2.0"
 
-  s.add_development_dependency "devise"
-  s.add_development_dependency "high_voltage"
-  s.add_development_dependency "haml-rails"
-  s.add_development_dependency "bootstrap-sass", "~> 3.2.0"
+  s.add_runtime_dependency "devise"
+  s.add_runtime_dependency "haml-rails"
+  s.add_runtime_dependency "high_voltage"
+  s.add_runtime_dependency "bootstrap-sass", "~> 3.2.0"
+
   s.add_development_dependency "jquery-rails"
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "coffee-rails"
