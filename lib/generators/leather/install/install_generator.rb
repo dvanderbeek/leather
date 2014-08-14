@@ -2,6 +2,10 @@ module Leather
   class InstallGenerator < Rails::Generators::Base
     source_root File.expand_path('../../../../../templates/', __FILE__)
 
+    def mount
+      route "mount Leather::Engine => '/'"
+    end
+
     def copy_devise_views
       directory("views/devise", Rails.root.join("app", "views", "devise"))
     end
