@@ -11,6 +11,22 @@ Add this line to your application's Gemfile:
 Then execute:
 
     $ bundle
+    $ rails g leather:install
+
+You'll also want to add the following styles to your application.css.scss by including:
+
+    @import 'bootstrap_variables';
+    @import 'bootstrap';
+    @import 'leather';
+    
+And the following to your application.js:
+
+    //= require bootstrap
+    //= require leather
+    
+And modify your `<body>` tag:
+
+    <body class="<%= params[:controller].split("/").join("_") %> <%= params[:action] %>">
     
 This will install leather, along with devise and bootstrap-sass as dependencies. You will also need to install Devise if you haven't already. The basic steps are to run:
 
@@ -29,28 +45,9 @@ config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
 ## Usage
 
-### Installing Devise Views
+### Devise Views
 
-Run this command to install a set of views for devise that work nicely with Bootstrap 3:
-
-    $ rails g leather:install
-    
-You'll also want to add the following styles to your application.css.scss by including:
-
-    @import 'bootstrap_variables';
-    @import 'bootstrap';
-    @import 'leather';
-    
-And the following to your application.js:
-
-    //= require bootstrap
-    //= require leather
-    
-And modify your `<body>` tag:
-
-    <body class="<%= params[:controller].split("/").join("_") %> <%= params[:action] %>">
-
-You'll get fully-customizable views that look good by default:
+The leather install generator will copy fully-customizable devise views into your application that look good by default:
 
 ![Screenshot](https://raw.githubusercontent.com/dvanderbeek/leather/master/login.png)
 
