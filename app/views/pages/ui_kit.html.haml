@@ -1,3 +1,10 @@
+.jumbotron
+  .container
+    %h1 Hello, world!
+    %p This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+    %p
+      %a.btn.btn-primary.btn-lg{role: "button"} Learn more
+
 = navbar "Brand", root_url, container_mode: :with, class: "navbar-default navbar-static-top" do
   = nav_list do
     = nav_item 'Link', '#'
@@ -44,23 +51,19 @@
       %li.divider
       = nav_item 'Separated link', '#'
 
-.jumbotron
-  .container
-    %h1 Hello, world!
-    %p This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
-    %p
-      %a.btn.btn-primary.btn-lg{role: "button"} Learn more
 .container
+  %h1.page-header Breadcrumbs
   %ol.breadcrumb
     %li
       %a{href: "#"} Home
     %li
       %a{href: "#"} Library
     %li.active Data
+
 .container
   %h1.page-header Off-Canvas Menus
-  = link_to "Left", "#", data: { toggle: "off-canvas", side: "left"}, class: "btn btn-primary"
-  = link_to "Right", "#", data: { toggle: "off-canvas", side: "right"}, class: "btn btn-primary"
+  = link_to "Left", "#", data: { toggle: "off-canvas", side: "left"}, class: "btn btn-primary", style: "z-index: 9005;"
+  = link_to "Right", "#", data: { toggle: "off-canvas", side: "right"}, class: "btn btn-primary", style: "z-index: 9005;"
 
   .off-canvas.off-canvas-left
     TEST
