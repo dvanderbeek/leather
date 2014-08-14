@@ -6,7 +6,7 @@ $ ->
 
     $(".off-canvas, .fixed").each ->
       $("#off-canvas-wrapper").before(this)
-      
+
     $(document).on 'click', '[data-toggle="off-canvas"]', (e) ->
       e.stopPropagation()
       e.preventDefault()
