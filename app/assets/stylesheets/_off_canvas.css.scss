@@ -8,15 +8,37 @@
   color: $off-canvas-color;
   &.off-canvas-right {
     right: -$off-canvas-width;
+    border-left: 1px solid $off-canvas-border;
   }
   &.off-canvas-left {
     left: -$off-canvas-width;
+    border-right: 1px solid $off-canvas-border;
+  }
+  &.off-canvas-inverse {
+    background: $off-canvas-inverse-bg;
+    color: $off-canvas-inverse-color;
+    &.off-canvas-right {
+      border-color: $off-canvas-inverse-border;
+    }
+    &.off-canvas-left {
+      border-color: $off-canvas-inverse-border;
+    }
+
+    .brand {
+      color: $off-canvas-inverse-brand-color;
+    }
+
+    .close {
+      color: $off-canvas-inverse-brand-color;
+      opacity: 0.8;
+    }
   }
 
   .brand {
     padding: 15px;
     font-size: 18px;
     line-height: 20px;
+    color: $navbar-default-brand-color;
 
     .close {
       position: relative;
