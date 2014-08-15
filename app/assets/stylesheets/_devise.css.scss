@@ -2,7 +2,7 @@ html, body {
   height: 100%;
 }
 
-.text-white { color: $white; }
+.text-white { color: #ffffff; }
 
 .devise_sessions, .devise_registrations, .devise_passwords {
   &.new, &.create {
@@ -34,7 +34,7 @@ html, body {
         text-decoration: none;
         @include transition(color 0.25s linear);
         &:hover {
-          color: darken($white, 20%);
+          color: darken(#ffffff, 20%);
         }
       }
     }
@@ -45,8 +45,8 @@ html, body {
   form {
     @include border-top-radius($border-radius-base);
     @include border-bottom-radius($border-radius-base);
-    border: 1px solid $white;
-    background: $white;
+    border: 1px solid #ffffff;
+    background: #ffffff;
     box-shadow: 1px 1px 3px $gray-dark;
     padding: 40px 40px 20px;
     border-top: 6px solid $devise-box-border-color;
