@@ -66,9 +66,13 @@
   = link_to "Right", "#", data: { toggle: "off-canvas", side: "right"}, class: "btn btn-primary", style: "z-index: 9005;"
 
   .off-canvas.off-canvas-left
-    TEST
+    .brand
+      Off-Canvas Left
+      .close &times;
   .off-canvas.off-canvas-right
-    TEST
+    .brand
+      Off-Canvas Right
+      .close &times;
 
   %h1.page-header Typography
   %h3 Headings
@@ -136,6 +140,16 @@
   %button.btn.btn-danger{type: "button"} Danger
   / Deemphasize a button by making it look like a link while maintaining button behavior
   %button.btn.btn-link{type: "button"} Link
+    
+  %hr
+
+  .row
+    .col-md-12
+      %button.btn.btn-default.btn-lg{type: "button"} Large
+      %button.btn.btn-default{type: "button"} Default
+      %button.btn.btn-default.btn-sm{type: "button"} Small
+      %button.btn.btn-default.btn-xs{type: "button"} Extra Small
+
   %h1.page-header Tables
   %h3 Basic Table
   = render 'table', table_class: ""

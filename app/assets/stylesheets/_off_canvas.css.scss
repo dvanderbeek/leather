@@ -12,6 +12,17 @@
   &.off-canvas-left {
     left: -$off-canvas-width;
   }
+
+  .brand {
+    padding: 15px;
+    font-size: 18px;
+    line-height: 20px;
+
+    .close {
+      position: relative;
+      top: -3px;
+    }
+  }
 }
 
 .off-canvas, .fixed, #off-canvas-wrapper {
