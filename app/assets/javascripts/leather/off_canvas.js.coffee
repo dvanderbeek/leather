@@ -14,16 +14,19 @@ offCanvas =
 
   bindEvents: ->
     $(document).on 'click', '[data-toggle="off-canvas"]', (e) ->
-      if e.handled != true
+      if !e.handled
         e.handled = offCanvas.toggle($(this), e)
 
     $(document).on 'click touchstart', '.off-canvas-show-left, .off-canvas-show-right', (e) ->
       clicked = $(e.target)
-      if e.handled != true
-        if (!clicked.hasClass("off-canvas") && clicked.parents(".off-canvas").length == 0 && clicked.data('toggle') != "off-canvas")
-          e.preventDefault()
-        else if (clicked.data('toggle') == "off-canvas" || (clicked.parents(".off-canvas").length && clicked.hasClass("close")))
-          e.handled = offCanvas.close(e)
+      if !e.handled && (offCanvas.isBody(clicked)|| offCanvas.isClose(clicked))
+        e.handled = offCanvas.close(e)
+
+  isBody: (clicked) ->
+    (!clicked.hasClass("off-canvas") && clicked.parents(".off-canvas").length == 0)
+
+  isClose: (clicked) ->
+    (clicked.parents(".off-canvas").length && clicked.hasClass("close"))
 
   toggle: (target, e) ->
     e.stopPropagation()
