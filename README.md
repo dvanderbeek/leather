@@ -1,5 +1,7 @@
 # Leather
 
+[![Gittip   ](http://img.shields.io/gittip/activeadmin.svg)                        ](https://gittip.com/dvanderbeek)
+
 Adds some useful setup for Rails apps that use Devise and Bootstrap 3. Creates a UI Kit page that makes it easy to define Bootstrap styles before starting the design process. Adds a nice-looking set of Devise views that use Bootstrap markup. Provides some useful partials for common Bootstrap components like modals, allowing you to skip the trip to getbootstrap.com to copy the markup.
 
 ## Installation
