@@ -17,10 +17,11 @@ offCanvas =
       if !e.handled
         e.handled = offCanvas.toggle($(this), e)
 
-    $(document).on 'click touchstart', '.off-canvas-show-left, .off-canvas-show-right', (e) ->
-      clicked = $(e.target)
-      if !e.handled && (offCanvas.isBody(clicked)|| offCanvas.isClose(clicked))
-        e.handled = offCanvas.close(e)
+    $(document).on 'click touchstart', (e) ->
+      if $('body').hasClass('off-canvas-show-left') || $('body').hasClass('off-canvas-show-right')
+        clicked = $(e.target)
+        if !e.handled && (offCanvas.isBody(clicked) || offCanvas.isClose(clicked))
+          e.handled = offCanvas.close(e)
 
   isBody: (clicked) ->
     (!clicked.hasClass("off-canvas") && clicked.parents(".off-canvas").length == 0)
