@@ -28,7 +28,7 @@ And the following to your application.js:
     
 And modify your `<body>` tag:
 
-    <body class="<%= params[:controller].split("/").join("_") %> <%= params[:action] %>">
+    <body class="<%= params[:controller].split("/").join("_") %> <%= params[:action] %> <%= yield(:body_class) %>">
     
 This will install leather, along with devise and bootstrap-sass as dependencies. You will also need to install Devise if you haven't already. The basic steps are to run:
 
@@ -60,6 +60,12 @@ After running `rails g leather:install`, you can visit `localhost:3000/ui_kit` t
 ![Screenshot](https://raw.githubusercontent.com/dvanderbeek/leather/master/ui-kit.png)
 
 The leather:install generator will also copy the bootstrap-sass variables file to your `app/assets/stylesheets` folder. This is where you should go first when you want to change a bootstrap default color, size, or other style.
+
+### Components
+
+You can also visit `localhost:3000/components` to view some additional bootstrap-based components to help get your static pages looking nice quickly. Check out the source of the `app/views/leather/application/components.html.haml` file to see the markup. Styles will be included if you add the leather.css.scss file to your app's stylesheet.
+
+![Screenshot](https://raw.githubusercontent.com/dvanderbeek/leather/master/components.png)
 
 ### Devise Helpers
 

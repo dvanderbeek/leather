@@ -2,6 +2,7 @@
   = nav_list do
     = nav_item 'Home', page_path("home")
     = nav_item 'UI Kit', leather.ui_kit_path
+    = nav_item 'Components', leather.components_path
   = nav_list class: 'navbar-right' do
     - if user_signed_in?
       = nav_item 'Sign Out', destroy_user_session_path, method: :delete
