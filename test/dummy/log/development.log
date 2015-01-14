@@ -30740,3 +30740,39 @@ Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-14 1
 
 
 Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-14 15:46:13 -0600
+
+
+Started GET "/components" for 127.0.0.1 at 2015-01-14 15:49:02 -0600
+Processing by Leather::ApplicationController#components as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/application/components.html.haml within layouts/application (25.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered application/_navigation.html.haml (13.8ms)
+Completed 200 OK in 1633ms (Views: 1633.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-14 15:49:04 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-14 15:49:04 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-14 15:49:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-14 15:49:04 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-14 15:49:04 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-14 15:49:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-14 15:49:04 -0600

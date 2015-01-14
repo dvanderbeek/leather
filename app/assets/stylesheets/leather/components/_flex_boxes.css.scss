@@ -28,4 +28,10 @@
       }
     }
   }
+
+  &.flex-grid-padded {
+    .flex-cell {
+      padding: 20px;
+    }
+  }
 }
