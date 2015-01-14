@@ -7,7 +7,7 @@
     .text-shadowed
       %h1.text-lighter Welcome to Leather
       %p.text-lighter Hello
-    = link_to "Learn More", "", class: "btn btn-lg square btn-primary"
+    = link_to "Learn More", "", class: "btn btn-lg no-radius btn-primary"
 
 %section.bg-gray-lightest.features
   .container
@@ -45,6 +45,24 @@
           %h4.detail-line Feature 4
           %p.text-muted Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
 
+%section.no-padding
+  .row.no-gutters.text-center
+    .col-md-4
+      = link_to "#", class: "block feature-block feature-block-primary" do
+        %h4.text-light Hover Link Feature
+        .detail-line
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+    .col-md-4
+      = link_to "#", class: "block feature-block feature-block-primary" do
+        %h4.text-light Hover Link Feature
+        .detail-line
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+    .col-md-4
+      = link_to "#", class: "block feature-block feature-block-primary" do
+        %h4.text-light Hover Link Feature
+        .detail-line
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+
 %section.bg-gray-lightest.relative.image-block
   .image.image-right.col-sm-5.col-md-6
     .abs-cover{style: "background: url('http://machine.mediumra.re/img/hero24.jpg') 50% 50%;"}
@@ -54,9 +72,9 @@
         .image-block-copy
           %h2.no-margin.text-lighter Image Block Right
           %p.text-muted{style: "margin: 30px 0;"} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
-          = link_to "Learn More", "", class: "btn square btn-primary"
+          = link_to "Learn More", "", class: "btn no-radius btn-primary"
 
-%section.bg-white.relative.image-block
+%section.bg-gray-lightest.relative.image-block
   .image.image-left.col-sm-5.col-md-6
     .abs-cover{style: "background: url('http://machine.mediumra.re/img/hero24.jpg') 50% 50%;"}
   .container
@@ -65,7 +83,8 @@
         .image-block-copy
           %h2.no-margin.text-lighter Image Block Left
           %p.text-muted{style: "margin: 30px 0;"} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
-          = link_to "Learn More", "", class: "btn square btn-primary"
+          = link_to "Learn More", "", class: "btn no-radius btn-primary"
+
 %section.bg-white
   .container
     .flex-grid.flex-grid-bordered
@@ -100,3 +119,25 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
         .flex-cell
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+
+%section.bg-gray-lightest
+  .container
+    .row
+      .col-sm-2
+        .text-center
+          %p= image_tag "http://placehold.it/200x200", class: "img-responsive img-circle inline-block"
+          %p
+            %span.text-muted by
+            Author Name
+      .col-sm-9.col-sm-offset-1
+        %h4.detail-line.text-lighter.text-muted.no-margin= Time.zone.now.strftime("%b %d, %Y")
+        %h3.text-lighter.blog-heading Post Title
+
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+
+        %h4.blog-heading Subheading
+
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+

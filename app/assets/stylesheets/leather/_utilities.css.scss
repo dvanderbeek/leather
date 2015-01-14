@@ -21,10 +21,12 @@
 .bg-gray-lightest { background: $navbar-default-bg; }
 
 .no-margin { margin: 0; }
-
-.relative {  position: relative; }
-
-.square {
+.no-padding { padding: 0; }
+.no-radius {
   @include border-top-radius(0);
   @include border-bottom-radius(0);
 }
+
+.relative {  position: relative; }
+.block { display: block; }
+.inline-block { display: inline-block; }

@@ -1,4 +1,20 @@
+@mixin feature-block-variant($color, $bg) {
+  background: $bg;
+  border-right: 1px solid lighten($bg, 10%);
+  color: $color;
+
+  &:hover, &:focus {
+    color: $color;
+  }
+
+  .detail-line:before {
+    border-color: $color;
+  }
+}
+
 .features {
+  padding-bottom: 40px;
+
   .feature {
     margin-bottom: 40px;
   }
@@ -13,5 +29,51 @@
     border-bottom: 1px solid #333;
     margin-bottom: 24px;
     display: block;
+  }
+}
+
+.feature-block {
+  padding: 60px 30px;
+  transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+
+  p {
+    display: none;
+  }
+
+  .detail-line:before {
+    display: inline-block;
+    margin: 10px 0 0 0;
+  }
+
+  &:hover {
+    p {
+      display: block;
+    }
+  }
+  
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+
+  &.feature-block-primary {
+    @include feature-block-variant($btn-primary-color, $btn-primary-bg);
+  }
+
+  &.feature-block-info {
+    @include feature-block-variant($btn-info-color, $btn-info-bg);
+  }
+
+  &.feature-block-success {
+    @include feature-block-variant($btn-success-color, $btn-success-bg);
+  }
+
+  &.feature-block-warning {
+    @include feature-block-variant($btn-warning-color, $btn-warning-bg);
+  }
+
+  &.feature-block-danger {
+    @include feature-block-variant($btn-danger-color, $btn-danger-bg);
   }
 }
