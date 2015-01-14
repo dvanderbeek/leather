@@ -1,7 +1,8 @@
 = navbar "Main App", page_path("home"), container_mode: :with, class: "navbar-default navbar-static-top" do
   = nav_list do
-    = nav_item 'Home', page_path("home")
+    = nav_item 'Home', page_path("home"), nav_id: [:home]
     = nav_item 'UI Kit', leather.ui_kit_path
+    = nav_item 'Components', leather.components_path
   = nav_list class: 'navbar-right' do
     - if user_signed_in?
       = nav_item 'Sign Out', destroy_user_session_path, method: :delete

@@ -3,7 +3,11 @@ module Leather
     layout 'application'
 
     def ui_kit
-      set_tab :home
+      set_tab :ui_kit
+    end
+
+    def components
+      set_tab :components
     end
   end
 end

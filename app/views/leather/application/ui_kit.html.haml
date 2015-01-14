@@ -264,13 +264,28 @@
         %h3.panel-title Panel title
       .panel-body
         Panel content
+
+  %h1.page-header List Groups
+  .list-group
+    = link_to "List Group Item", "", class: "list-group-item"
+    = link_to "List Group Item", "", class: "list-group-item"
+    = link_to "List Group Item", "", class: "list-group-item"
+    = link_to "List Group Item", "", class: "list-group-item"
+
+  %ul.list-group.list-group-button-links
+    - 3.times do
+      %li.list-group-item
+        = link_to "List Group Item", "", class: "list-group-link"
+        .list-group-actions
+          = link_to "Delete", "", class: "btn btn-xs btn-danger"
+
   %h1.page-header Wells
   .well Normal well
   .well.well-lg Large well
   .well.well-sm Small well
   %h1.page-header Tabs
   .bs-example.bs-example-tabs
-    %ul#myTab.nav.nav-tabs{role: "tablist"}
+    %ulmyTab.nav.nav-tabs{role: "tablist"}
       %li.active
         %a{"data-toggle" => "tab", href: "#home", role: "tab"} Home
       %li
