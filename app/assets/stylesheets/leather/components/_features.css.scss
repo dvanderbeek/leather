@@ -1,0 +1,17 @@
+.features {
+  .feature {
+    margin-bottom: 40px;
+  }
+}
+
+.detail-line {
+  margin: 0 0 24px 0;
+  
+  &:before {
+    content: "";
+    width: 30px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 24px;
+    display: block;
+  }
+}

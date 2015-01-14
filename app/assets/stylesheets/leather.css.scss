@@ -1,5 +1,16 @@
 @import "leather/variables.css.scss";
 @import "leather/devise";
+@import "leather/grid";
 @import "leather/list_groups";
 @import "leather/nav";
 @import "leather/off_canvas";
+@import "leather/typography";
+@import "leather/utilities";
+
+@import "leather/components/features";
+@import "leather/components/flex_boxes";
+@import "leather/components/image_block";
+
+html, body {
+  height: 100%;
+}

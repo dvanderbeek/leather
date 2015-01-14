@@ -1,0 +1,32 @@
+.flex-grid {
+  .flex-row {
+    display: flex;
+
+    .flex-cell {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .flex-cell-wide {
+      flex: 0 0 percentage(2/3);
+    }
+  }
+
+  &.flex-grid-bordered {
+    .flex-row {
+      border-bottom: 1px solid #ccc;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .flex-cell {
+        border-left: 1px solid #ccc;
+
+        &:first-child {
+          border-left: none;
+        }
+      }
+    }
+  }
+}

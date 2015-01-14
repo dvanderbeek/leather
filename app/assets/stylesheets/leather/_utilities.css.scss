@@ -1,0 +1,30 @@
+.abs-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover !important;
+}
+
+.vertical-center {
+  transform: translate(-50%, -50%); 
+  left: 50%; 
+  margin: auto; 
+  position: absolute; 
+  top: 50%;
+}
+
+.bg-white { background:#FFF; }
+.bg-gray-light { background: $gray-light; }
+.bg-gray-lighter { background: $gray-lighter; }
+.bg-gray-lightest { background: $navbar-default-bg; }
+
+.no-margin { margin: 0; }
+
+.relative {  position: relative; }
+
+.square {
+  @include border-top-radius(0);
+  @include border-bottom-radius(0);
+}

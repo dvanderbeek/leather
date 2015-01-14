@@ -1,0 +1,36 @@
+.image-block {
+  padding: 0;
+
+  .image-block-copy {
+    padding: 80px 0;
+  }
+
+  .image {
+    position: absolute; 
+    top: 0; 
+    height: 100%; 
+  }
+
+  .image-right {
+    right: 0;
+  }
+
+  .image-left {
+    left: 0;
+  }
+}
+
+@media(max-width: $screen-xs-max) {
+  .image-block {
+
+    .image-block-copy {
+      padding: 40px 0;
+    }
+
+    .image {
+      position: relative;
+      height: 300px;
+      width: 100%;
+    }
+  }
+}
