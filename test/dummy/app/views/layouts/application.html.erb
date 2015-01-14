@@ -7,11 +7,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body class="<%= params[:controller].split("/").join("_") %> <%= params[:action] %> <%= yield(:body_class) %>">
-
-<div class="container-lg">
   <%= render 'navigation' %>
   <%= yield %>
-</div>
-
 </body>
 </html>
