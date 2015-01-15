@@ -2,6 +2,9 @@ $ ->
   if $(".off-canvas").length > 0
     offCanvas.init()
 
+  $(".toggle-sidebar").click ->
+    $("#sidebar").toggleClass("collapsed")
+
 offCanvas =
   init: ->
     @setupDocument()
