@@ -1,0 +1,23 @@
+= content_for :body_class do
+  = "navbar-fixed-left"
+
+= navbar "Leather", main_app.root_url, class: "navbar-inverse navbar-fixed-top" do
+  = nav_list do
+    = dropdown_nav_item 'Lorem', '#' do
+      = nav_item 'Ipsum', '#'
+      = nav_item 'Dolor', '#'
+      = nav_item 'Sit', '#'
+    = nav_item 'Home', '#'
+    = nav_item 'Dolor', '#'
+    = nav_item 'Sit', '#'
+
+%header
+  .container-fluid
+    .row
+      .col-xs-6
+        %h1 Header
+      .col-xs-6
+        = link_to "New", "#", class: "btn btn-primary pull-right"
+
+.container-fluid
+  %h2 Admin Layout 2
