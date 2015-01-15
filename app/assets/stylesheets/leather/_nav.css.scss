@@ -40,9 +40,10 @@ body, html {
 
 #content {
   margin-left: 230px;
+  min-height: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: $screen-xs-max) {
   #sidebar {
     left: 100%;
   }
@@ -80,7 +81,7 @@ body, html {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $screen-sm-min) {
   #sidebar.collapsed {
     width: 75px;
     text-align: center;
