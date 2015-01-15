@@ -1,7 +1,15 @@
 @mixin feature-block-variant($color, $bg) {
-  background: $bg;
+  background: lighten($bg, 7%);
   border-right: 1px solid lighten($bg, 10%);
   color: $color;
+
+  &:first-child {
+    background: $bg;
+  }
+
+  &:last-child {
+    background: lighten($bg, 12%);
+  }
 
   &:hover, &:focus {
     color: $color;

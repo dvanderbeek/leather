@@ -139,3 +139,36 @@
 
         %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
 
+%section.bg-gray-radial-light.no-overflow.image-block.image-block-bottom
+  .container
+    .row.relative
+      .col-sm-6
+        .image-block-copy.relative
+          .vertical-center.absolute
+            %h2.text-light.text-primary Title
+            %p.text-muted Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+            %p= link_to "Learn More", "", class: "btn btn-primary no-radius btn-outline"
+      .image.image-right.col-sm-6.col-md-4
+        = image_tag "http://machine.mediumra.re/img/phone.png", class: "img-responsive"
+
+%section.bg-white.text-center.cta.cta-inline
+  .container
+    %h2.text-primary.text-light.pull-left Call to Action
+    = link_to "Learn More", "", class: "btn btn-primary btn-lg text-white no-radius btn-outline pull-right"
+
+%section.bg-gray-radial-dark.text-white.no-overflow.image-block.image-block-bottom
+  .container
+    .row.relative
+      .col-sm-6.col-sm-push-6
+        .image-block-copy.relative
+          .vertical-center.absolute
+            %h2.text-light Title
+            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. 
+            %p= link_to "Learn More", "", class: "btn btn-default text-white no-radius btn-outline"
+      .image.image-left.col-sm-6.col-md-4
+        = image_tag "http://machine.mediumra.re/img/phone.png", class: "img-responsive"
+
+%section.bg-white.text-center.cta
+  .container
+    %h2.text-primary.text-light Call to Action
+    %p= link_to "Learn More", "", class: "btn btn-primary btn-lg text-white no-radius btn-outline"

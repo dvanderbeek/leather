@@ -1,0 +1,13 @@
+.cta {
+  padding: 40px 0;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  &.cta-inline {
+    h2 {
+      margin: 6px 0 0 0;
+    }
+  }
+}
