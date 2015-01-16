@@ -45409,3 +45409,3479 @@ Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 16:32:37 -
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 16:32:37 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:22:49 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (3.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (1.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (2.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (1.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (6.9ms)
+  Rendered application/_navigation.html.haml (39.5ms)
+Completed 200 OK in 133ms (Views: 132.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:49 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:22:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:49 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:49 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:49 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:49 -0600
+
+
+Started GET "/layouts/admin" for 127.0.0.1 at 2015-01-15 17:22:51 -0600
+Processing by Leather::LayoutsController#admin as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin.html.haml within layouts/application (4.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.7ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:51 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:22:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:51 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:51 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:51 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:51 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:22:56 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered application/_navigation.html.haml (20.2ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:22:56 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:56 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:56 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:56 -0600
+
+
+Started GET "/layouts/admin_2" for 127.0.0.1 at 2015-01-15 17:22:58 -0600
+Processing by Leather::LayoutsController#admin_2 as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin_2.html.haml within layouts/application (18.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.2ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:22:58 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:58 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:58 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:58 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:22:58 -0600
+
+
+Started GET "/layouts/admin" for 127.0.0.1 at 2015-01-15 17:23:24 -0600
+Processing by Leather::LayoutsController#admin as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin.html.haml within layouts/application (0.9ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:23:24 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:24 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:24 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:24 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:24 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:23:30 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered application/_navigation.html.haml (23.1ms)
+Completed 200 OK in 40ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:23:30 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:30 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:30 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:30 -0600
+
+
+Started GET "/layouts/admin_2" for 127.0.0.1 at 2015-01-15 17:23:38 -0600
+Processing by Leather::LayoutsController#admin_2 as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (1.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin_2.html.haml within layouts/application (47.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:23:38 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:38 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:38 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:38 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:23:42 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered application/_navigation.html.haml (18.1ms)
+Completed 200 OK in 31ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:23:42 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:42 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:42 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:42 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-15 17:23:44 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (1.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.2ms)
+Completed 200 OK in 13ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:23:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:44 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:44 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:44 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:23:44 -0600
+
+
+Started GET "/layouts/admin" for 127.0.0.1 at 2015-01-15 17:28:38 -0600
+Processing by Leather::LayoutsController#admin as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin.html.haml within layouts/application (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 15ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:38 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:38 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:38 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:28:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:38 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:28:42 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.8ms)
+  Rendered application/_navigation.html.haml (21.1ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:42 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:42 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:42 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:28:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:42 -0600
+
+
+Started GET "/layouts/admin_2" for 127.0.0.1 at 2015-01-15 17:28:43 -0600
+Processing by Leather::LayoutsController#admin_2 as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin_2.html.haml within layouts/application (15.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:28:43 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:43 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:43 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:43 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:43 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:43 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:28:43 -0600
+
+
+Started GET "/layouts/admin_2" for 127.0.0.1 at 2015-01-15 17:30:01 -0600
+Processing by Leather::LayoutsController#admin_2 as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin_2.html.haml within layouts/application (26.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 40ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:30:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:02 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:02 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:02 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:02 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:30:18 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered application/_navigation.html.haml (26.5ms)
+Completed 200 OK in 38ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:30:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:18 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:18 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:18 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:18 -0600
+
+
+Started GET "/layouts/admin_2" for 127.0.0.1 at 2015-01-15 17:30:20 -0600
+Processing by Leather::LayoutsController#admin_2 as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin_2.html.haml within layouts/application (14.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 26ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:30:20 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:20 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:20 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:20 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:20 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:30:20 -0600
+
+
+Started GET "/layouts/admin_2" for 127.0.0.1 at 2015-01-15 17:31:04 -0600
+Processing by Leather::LayoutsController#admin_2 as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin_2.html.haml within layouts/application (13.9ms)
+Completed 500 Internal Server Error in 669ms
+
+ActionView::Template::Error (Undefined variable: "$gray-lightest".
+  (in /Users/earlynovrock/Web/leather/test/dummy/app/assets/stylesheets/application.css.scss:11)):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:3
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2080296960892357092_70121377543000'
+
+
+  Rendered /Users/earlynovrock/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/earlynovrock/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/earlynovrock/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.9ms)
+
+
+Started GET "/layouts/admin_2" for 127.0.0.1 at 2015-01-15 17:31:13 -0600
+Processing by Leather::LayoutsController#admin_2 as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin_2.html.haml within layouts/application (13.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1586ms (Views: 1585.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:31:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:14 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:14 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:14 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:14 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:31:24 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.9ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered application/_navigation.html.haml (18.2ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:24 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:24 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:25 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:25 -0600
+
+
+Started GET "/layouts/admin" for 127.0.0.1 at 2015-01-15 17:31:26 -0600
+Processing by Leather::LayoutsController#admin as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin.html.haml within layouts/application (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:27 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:27 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:27 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:27 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:27 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:27 -0600
+
+
+Started GET "/layouts/admin" for 127.0.0.1 at 2015-01-15 17:31:49 -0600
+Processing by Leather::LayoutsController#admin as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin.html.haml within layouts/application (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1652ms (Views: 1651.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:31:51 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered application/_navigation.html.haml (21.7ms)
+Completed 200 OK in 32ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:51 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:51 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:51 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:51 -0600
+
+
+Started GET "/layouts/admin_2" for 127.0.0.1 at 2015-01-15 17:31:53 -0600
+Processing by Leather::LayoutsController#admin_2 as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin_2.html.haml within layouts/application (19.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.2ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:53 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:53 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:53 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:53 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:53 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:53 -0600
+
+
+Started GET "/layouts/admin_2" for 127.0.0.1 at 2015-01-15 17:31:54 -0600
+Processing by Leather::LayoutsController#admin_2 as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin_2.html.haml within layouts/application (19.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.2ms)
+Completed 200 OK in 32ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:54 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:54 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:55 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:55 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:31:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:31:55 -0600
+
+
+Started GET "/layouts/admin_2" for 127.0.0.1 at 2015-01-15 17:32:09 -0600
+Processing by Leather::LayoutsController#admin_2 as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin_2.html.haml within layouts/application (13.9ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1556ms (Views: 1555.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:11 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:11 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:11 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:11 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:32:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:11 -0600
+
+
+Started GET "/layouts/admin_2" for 127.0.0.1 at 2015-01-15 17:32:36 -0600
+Processing by Leather::LayoutsController#admin_2 as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin_2.html.haml within layouts/application (16.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1599ms (Views: 1598.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:38 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:38 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:38 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-15 17:32:38 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:32:50 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered application/_navigation.html.haml (21.2ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:50 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:50 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:50 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:50 -0600
+
+
+Started GET "/layouts/admin" for 127.0.0.1 at 2015-01-15 17:32:55 -0600
+Processing by Leather::LayoutsController#admin as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin.html.haml within layouts/application (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:55 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:55 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:55 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:32:55 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:37:50 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (1.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered application/_navigation.html.haml (23.3ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:50 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:50 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:50 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:50 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:50 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:50 -0600
+
+
+Started GET "/home" for 127.0.0.1 at 2015-01-15 17:37:51 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:37:51 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered application/_navigation.html.haml (18.8ms)
+Completed 200 OK in 30ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:51 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:51 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:51 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:51 -0600
+
+
+Started GET "/components" for 127.0.0.1 at 2015-01-15 17:37:52 -0600
+Processing by Leather::ApplicationController#components as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/application/components.html.haml within layouts/application (27.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered application/_navigation.html.haml (17.3ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:52 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:52 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:52 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:52 -0600
+
+
+Started GET "/layouts/admin" for 127.0.0.1 at 2015-01-15 17:37:56 -0600
+Processing by Leather::LayoutsController#admin as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin.html.haml within layouts/application (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:56 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:56 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:56 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:56 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:37:58 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered application/_navigation.html.haml (21.3ms)
+Completed 200 OK in 32ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:58 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:58 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:58 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:37:58 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-15 17:38:00 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:00 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:00 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:00 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:00 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-15 17:38:03 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:04 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:04 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:04 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:04 -0600
+
+
+Started GET "/layouts/admin" for 127.0.0.1 at 2015-01-15 17:38:07 -0600
+Processing by Leather::LayoutsController#admin as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/admin.html.haml within layouts/application (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 10ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:07 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:07 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:07 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:07 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:07 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:07 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-15 17:38:09 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.8ms)
+  Rendered application/_navigation.html.haml (23.6ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:09 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:09 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:09 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:09 -0600
+
+
+Started GET "/components" for 127.0.0.1 at 2015-01-15 17:38:10 -0600
+Processing by Leather::ApplicationController#components as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/application/components.html.haml within layouts/application (1.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered application/_navigation.html.haml (25.6ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:10 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:10 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:10 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:10 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-15 17:38:12 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.2ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:12 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:12 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:12 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:12 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-15 17:38:21 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 12ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:21 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:21 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:21 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-15 17:38:21 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:24:51 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (26.2ms)
+Completed 500 Internal Server Error in 885ms
+
+ActionView::Template::Error (Invalid CSS after "      right": expected ";", was ": 0;"
+  (in /Users/earlynovrock/Web/leather/test/dummy/app/assets/stylesheets/application.css.scss:35)):
+    2: <html>
+    3: <head>
+    4:   <title>Dummy</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.css.scss:3
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2080296960892357092_70121377543000'
+
+
+  Rendered /Users/earlynovrock/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/earlynovrock/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /Users/earlynovrock/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.5ms)
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:25:04 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1640ms (Views: 1639.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:25:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:06 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:06 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:06 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:06 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:25:41 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1550ms (Views: 1550.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:25:43 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:43 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:43 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:43 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:43 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:43 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:25:43 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:25:59 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1576ms (Views: 1576.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:00 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:26:00 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:01 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:01 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:01 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:26:24 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1485ms (Views: 1485.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:26 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:26:26 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:26 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:26 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:26 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:26 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:26:26 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:27:38 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (26.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:38 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:38 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:38 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:38 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:27:38 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:27:59 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.9ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (18.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:59 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:27:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:59 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:59 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:27:59 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:28:44 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (17.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.2ms)
+Completed 200 OK in 28ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:28:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:28:45 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:28:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:28:45 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:28:45 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:28:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:28:45 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-16 07:29:22 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered application/_navigation.html.haml (19.7ms)
+Completed 200 OK in 37ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:29:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:22 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:22 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:22 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:22 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:29:24 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (16.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:29:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:24 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:24 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:24 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:24 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:29:24 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:30:04 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (18.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1656ms (Views: 1655.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:30:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:30:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:30:06 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:30:06 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:30:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:30:06 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:30:06 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:32:46 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (19.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1590ms (Views: 1589.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:32:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:32:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:32:47 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:32:47 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:32:47 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:32:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:32:47 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:33:30 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (1.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (21.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1541ms (Views: 1541.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:33:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:33:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:33:32 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:33:32 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:33:32 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:33:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:33:32 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:33:59 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (28.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1681ms (Views: 1680.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:01 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:01 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:01 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:01 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:34:01 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:34:55 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (20.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1618ms (Views: 1617.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:34:57 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:57 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:57 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:57 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:57 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:34:57 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:36:01 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (14.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1479ms (Views: 1478.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:03 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:03 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:36:03 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:03 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:03 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:36:46 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (15.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1649ms (Views: 1648.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:36:48 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:48 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:48 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:48 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:48 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:48 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:36:48 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:37:05 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.9ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (1.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (23.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1670ms (Views: 1669.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:37:06 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:37:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:37:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:37:06 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:37:06 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:37:06 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:37:06 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:39:21 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (1.0ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (17.0ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.2ms)
+Completed 200 OK in 1592ms (Views: 1591.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:39:23 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:23 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:23 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:23 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:23 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:23 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:23 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:39:44 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (17.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.2ms)
+Completed 200 OK in 1658ms (Views: 1658.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:46 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:46 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:46 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:39:46 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:39:46 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:40:11 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (1.0ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (20.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1556ms (Views: 1555.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:40:13 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:40:13 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:40:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:40:13 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:40:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:40:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:40:13 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:41:58 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (15.9ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:41:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:41:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:41:59 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:41:59 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:41:59 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:41:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:41:59 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:42:09 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (15.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1542ms (Views: 1541.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:42:11 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:11 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:11 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:11 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:42:20 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (20.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1614ms (Views: 1614.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:42:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:22 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:22 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:22 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:22 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:42:28 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (1.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (19.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1527ms (Views: 1527.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:42:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:30 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:30 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:30 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:42:30 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:44:18 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (13.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1599ms (Views: 1598.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:44:20 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:20 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:20 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:20 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:20 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:20 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:44:57 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (18.9ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1637ms (Views: 1637.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:44:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:59 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:59 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:59 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:44:59 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:45:55 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (22.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 391ms (Views: 390.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:45:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:45:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:45:55 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:45:55 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:45:55 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:45:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:45:55 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:46:16 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (19.9ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 33ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:46:16 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:16 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:16 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:16 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:46:46 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (18.0ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1556ms (Views: 1555.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:47 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:47 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:47 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:46:47 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:46:47 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:47:02 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (16.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1503ms (Views: 1502.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:04 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:04 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:04 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:47:04 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:04 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:47:34 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (20.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:47:34 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:34 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:34 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:34 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:34 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:34 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:34 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:47:45 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (13.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1646ms (Views: 1645.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:47 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:47 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:47:47 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:47 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:47:47 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-16 07:48:05 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (1.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.7ms)
+  Rendered application/_navigation.html.haml (24.1ms)
+Completed 200 OK in 37ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:05 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:05 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:05 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:05 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:48:09 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (11.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.3ms)
+Completed 200 OK in 24ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:09 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:09 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:09 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:09 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:48:28 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (20.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:48:28 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:28 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:28 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:28 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:28 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:28 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:48:28 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:48:57 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:49:11 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (14.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 336ms (Views: 335.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:49:12 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:49:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:49:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:49:12 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:49:12 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:49:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:49:12 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:51:14 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.9ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (2.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (1.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (48.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.2ms)
+Completed 200 OK in 74ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:14 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:51:14 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:14 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:14 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-16 07:51:29 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered application/_navigation.html.haml (23.5ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:51:29 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:29 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:29 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:29 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:51:31 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (17.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:51:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:32 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:32 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:32 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:32 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:51:42 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (14.0ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 24ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:51:42 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:42 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:42 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:42 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:51:51 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (1.0ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (23.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:51:51 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:51 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:51 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:51:51 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:52:08 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (20.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 31ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:52:08 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:08 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:08 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:08 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:08 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:52:13 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:52:25 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (22.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:52:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:25 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:25 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:25 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:52:25 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-16 07:53:01 -0600
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"home"}
+  Rendered pages/home.html.haml within layouts/application (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered application/_navigation.html.haml (19.2ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:53:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:01 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:01 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:01 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:01 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:53:06 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (1.0ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (17.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 28ms (Views: 27.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:53:06 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:06 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:06 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:06 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:53:35 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (20.9ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 33ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:53:35 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:35 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:35 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:35 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:53:35 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:54:44 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (1.0ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (23.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:54:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:54:44 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:54:44 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:54:44 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:54:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:54:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:54:44 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:56:52 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:58:29 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (15.0ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1702ms (Views: 1701.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:58:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:58:30 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:58:30 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:58:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:58:31 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:58:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:58:31 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:59:03 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (16.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1512ms (Views: 1511.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:59:05 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:05 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:05 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:05 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:05 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:05 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:05 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:59:13 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (18.0ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.2ms)
+Completed 200 OK in 1578ms (Views: 1577.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:15 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:15 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:15 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:15 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:15 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:59:15 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:15 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 07:59:47 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (17.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1558ms (Views: 1557.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 07:59:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:49 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:49 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:49 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 07:59:49 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 08:02:15 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (20.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:15 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:15 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:15 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 08:02:15 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:15 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:15 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:15 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 08:02:19 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (20.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 30ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 08:02:19 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:19 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:19 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:19 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:19 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:19 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:19 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 08:02:30 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (1.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (21.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:31 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 08:02:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:31 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:31 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:31 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 08:02:42 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.6ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (14.9ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1573ms (Views: 1572.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:43 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 08:02:43 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:43 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:43 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:43 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:43 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 08:02:43 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 08:03:42 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (1.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (1.0ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (20.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1814ms (Views: 1814.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 08:03:45 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (17.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 29ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 08:03:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 08:03:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 08:03:45 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 08:03:45 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 08:03:45 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 08:03:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 08:03:45 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 08:04:15 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.8ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.1ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.7ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (15.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1594ms (Views: 1594.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 08:04:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 08:04:16 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 08:04:16 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 08:04:16 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 08:04:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 08:04:16 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 08:04:16 -0600
+
+
+Started GET "/layouts/three_column" for 127.0.0.1 at 2015-01-16 08:05:08 -0600
+Processing by Leather::LayoutsController#three_column as HTML
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_dropdown_nav_item.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_item.html.haml (0.4ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_nav_list.html.haml (0.2ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/bootstrap_components/_navbar.html.haml (0.5ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/three_column.html.haml within layouts/application (23.3ms)
+  Rendered /Users/earlynovrock/Web/leather/app/views/leather/layouts/_navigation.html.haml (0.1ms)
+Completed 200 OK in 1573ms (Views: 1572.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-16 08:05:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-16 08:05:09 -0600
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-16 08:05:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-16 08:05:09 -0600
+
+
+Started GET "/assets/leather/off_canvas.js?body=1" for 127.0.0.1 at 2015-01-16 08:05:09 -0600
+
+
+Started GET "/assets/leather.js?body=1" for 127.0.0.1 at 2015-01-16 08:05:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-16 08:05:09 -0600

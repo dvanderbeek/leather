@@ -1,6 +1,10 @@
 $ ->
   $(".toggle-sidebar").click ->
     $("#sidebar").toggleClass("collapsed")
+    
+  $(".toggle-right").click ->
+    $("#sidebar").removeClass("collapsed")
+    $("#right").toggleClass("in")
 
   if $(".off-canvas").length > 0
     offCanvas.init()

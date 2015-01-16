@@ -1,1 +1,25 @@
-3 column layout
+= content_for :body_class do 
+  = "leather-three-column-layout"
+
+= navbar "Leather", main_app.root_url, class: "navbar-default navbar-fixed-top" do
+  = nav_list do
+    = dropdown_nav_item 'Lorem', '#' do
+      = nav_item 'Ipsum', '#'
+      = nav_item 'Dolor', '#'
+      = nav_item 'Sit', '#'
+    = nav_item 'Home', '#'
+    = nav_item 'Dolor', '#'
+    = nav_item 'Sit', '#'
+
+#main
+  #sidebar
+    Groups
+  #content
+    #left
+      = link_to "Menu", "#", class: "btn btn-default visible-xs toggle-sidebar"
+      %ul.list-group
+        = link_to "List Item", "#", class: "list-group-item toggle-right"
+    #right
+      = link_to raw("&times;"), "#", class: "close visible-xs toggle-right"
+      %h3 Content
+    #overlay.toggle-sidebar

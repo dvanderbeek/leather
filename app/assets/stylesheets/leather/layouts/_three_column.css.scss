@@ -1,0 +1,77 @@
+.leather-three-column-layout {
+  #main {
+    position: absolute;
+    top: $navbar-height;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #sidebar {
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;    
+  }
+
+  #content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    margin-left: 250px;
+
+    #left {
+      background: #f1f1f1;
+      position: absolute;
+      left: 0;
+      width: 40%;
+      top: 0;
+      height: 100%;
+    }
+
+    #right {
+      background: #FFF;
+      position: absolute;
+      left: 40%;
+      right: 0;
+      top: 0;
+      height: 100%;
+      padding: 30px 80px 0 80px;
+    }
+  }
+
+  // Remove these once admin styles are properly scoped
+  @media (min-width: $screen-sm-min) {
+    #sidebar.collapsed {
+      text-align: left;
+    }
+
+    #sidebar.collapsed + #content {
+      margin-left: 250px;
+    }
+  }
+  // END
+
+  @media (max-width: $screen-xs-max) {
+    #content {
+      margin-left: 0;
+
+      #left {
+        width: 100%;
+      }
+
+      #right {
+        left: 100%;
+        overflow: hidden;
+        padding: 20px;
+
+        &.in {
+          left: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+}
