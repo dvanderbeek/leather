@@ -1,6 +1,10 @@
 .navbar-fixed-left {
   padding-top: $navbar-height;
 
+  .navbar-fixed-top {
+    overflow-y: auto;
+  }
+
   header {
     height: $header-height;
     padding: 10px 0;
@@ -45,7 +49,6 @@
     }
 
     #overlay {
-      content: "";
       position: absolute;
       top: 0;
       left: 0;
@@ -54,10 +57,10 @@
       background-color: $modal-backdrop-bg;
       @include opacity($modal-backdrop-opacity);
       z-index: $zindex-navbar;
-      -webkit-transition: all 0.2s ease;
-      -moz-transition: all 0.2s ease;
-      -o-transition: all 0.2s ease;
-      transition: all 0.2s ease;
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      -o-transition: all 0.5s ease;
+      transition: all 0.5s ease;
     }
   }
 
@@ -219,6 +222,7 @@
   .navbar-fixed-left {
     #overlay {
       display: none;
+      @include opacity(0);
     }
 
     &.navbar-offcanvas-left .navbar-brand {
