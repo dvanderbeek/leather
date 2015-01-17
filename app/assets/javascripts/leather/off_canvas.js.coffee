@@ -1,6 +1,6 @@
 $ ->
   $(".toggle-sidebar").click ->
-    $("#sidebar").toggleClass("collapsed")
+    $("body").toggleClass("offcanvas-show")
     
   $(".toggle-right").click ->
     $("#sidebar").removeClass("collapsed")

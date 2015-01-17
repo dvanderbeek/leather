@@ -12,5 +12,8 @@ $off-canvas-inverse-color:        $navbar-inverse-link-hover-color !default;
 $off-canvas-inverse-border:       $navbar-inverse-border !default;
 $off-canvas-inverse-brand-color:  $navbar-inverse-link-hover-color !default;
 
-$navbar-fixed-left-width:                   230px;
-$header-height:                             50px;
+$navbar-fixed-left-width:           250px;
+$navbar-fixed-left-collapsed-width: 75px;
+$header-height:                     50px;
+$header-bg:                         $navbar-default-bg;
+$header-border-color:               $navbar-default-bg;

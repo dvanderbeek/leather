@@ -16,6 +16,12 @@
           = link_to title, brand_link, :class => 'navbar-brand'
         .collapse.navbar-collapse{ id: "navbar-#{id}" }
           = block
+  - when :no_collapse
+    %nav.navbar{ class: html_options[:class] }
+      .container
+        .navbar-header
+          = link_to title, brand_link, :class => 'navbar-brand'
+        = block
   - when :in
     .container
       .row.clearfix

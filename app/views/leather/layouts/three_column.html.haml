@@ -1,7 +1,7 @@
-= content_for :body_class do 
-  = "leather-three-column-layout"
+= content_for :body_class do
+  = "leather-three-column navbar-fixed-left navbar-offcanvas-left"
 
-= navbar "Leather", main_app.root_url, class: "navbar-default navbar-fixed-top" do
+= navbar "Leather", main_app.root_url, container_mode: :no_collapse, class: "navbar-inverse navbar-fixed-top" do
   = nav_list do
     = dropdown_nav_item 'Lorem', '#' do
       = nav_item 'Ipsum', '#'
@@ -12,14 +12,13 @@
     = nav_item 'Sit', '#'
 
 #main
-  #sidebar
-    Groups
-  #content
-    #left
-      = link_to "Menu", "#", class: "btn btn-default visible-xs toggle-sidebar"
-      %ul.list-group
-        = link_to "List Item", "#", class: "list-group-item toggle-right"
-    #right
-      = link_to raw("&times;"), "#", class: "close visible-xs toggle-right"
-      %h3 Content
-    #overlay.toggle-sidebar
+  #left
+    = link_to "Menu", "#", class: "btn btn-default visible-xs visible-sm toggle-sidebar"
+    %ul.list-group
+      = link_to "List Item", "#", class: "list-group-item toggle-right"
+
+  #right
+    = link_to raw("&times;"), "#", class: "close visible-xs toggle-right"
+    %h3 Content
+
+#overlay.toggle-sidebar
