@@ -15,7 +15,8 @@
   .container-fluid
     .row
       .col-xs-6
-        = link_to "Menu", "#", class: "toggle-sidebar btn btn-default pull-left visible-xs"
+        = link_to "#", class: "toggle-sidebar btn btn-default pull-left visible-xs", style: "margin-right: 10px;" do
+          %i.fa.fa-bars
         %h1 Header
       .col-xs-6
         = link_to "New", "#", class: "btn btn-primary pull-right"

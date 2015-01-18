@@ -13,12 +13,18 @@
 
 #main
   #left
-    = link_to "Menu", "#", class: "btn btn-default visible-xs visible-sm toggle-sidebar"
+    %header.visible-xs.visible-sm
+      .container-fluid
+        = link_to "#", class: "toggle-sidebar btn btn-default" do
+          %i.fa.fa-bars
     %ul.list-group
       = link_to "List Item", "#", class: "list-group-item toggle-right"
 
   #right
-    = link_to raw("&times;"), "#", class: "close visible-xs toggle-right"
+    %header.visible-xs
+      .container-fluid
+        = link_to "#", class: "toggle-right btn btn-default" do
+          %i.fa.fa-chevron-left
     %h3 Content
 
 #overlay.toggle-sidebar
