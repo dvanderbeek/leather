@@ -1,0 +1,40 @@
+.nav-menu {
+  width: $navbar-fixed-width;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+
+  ~ #main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &.nav-menu-fixed-left {
+    right: auto;
+    left: 0;
+
+    ~ #main {
+      right: 0;
+      left: $navbar-fixed-width;
+    }
+  }
+
+  &.nav-menu-fixed-right {
+    left: auto;
+    right: 0;
+
+    ~ #main {
+      left: 0;
+      right: $navbar-fixed-width;
+    }
+  }
+
+  &.nav-menu-default {
+    background: $navbar-default-bg;
+    color: $navbar-default-color;
+  }
+}

@@ -1,76 +1,108 @@
-.off-canvas {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  z-index: 10000;
-  width: $off-canvas-width;
-  background: $off-canvas-bg-color;
-  color: $off-canvas-color;
-  &.off-canvas-right {
-    right: -$off-canvas-width;
-    border-left: 1px solid $off-canvas-border;
-  }
-  &.off-canvas-left {
-    left: -$off-canvas-width;
-    border-right: 1px solid $off-canvas-border;
-  }
-  &.off-canvas-inverse {
-    background: $off-canvas-inverse-bg;
-    color: $off-canvas-inverse-color;
-    &.off-canvas-right {
-      border-color: $off-canvas-inverse-border;
-    }
-    &.off-canvas-left {
-      border-color: $off-canvas-inverse-border;
-    }
+@mixin offcanvas {
+  @include transition(all 0.3s);
+  z-index: $zindex-modal;
 
-    .brand {
-      color: $off-canvas-inverse-brand-color;
-    }
-
-    .close {
-      color: $off-canvas-inverse-brand-color;
-      opacity: 0.8;
-    }
+  ~ #overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    background-color: $modal-backdrop-bg;
+    z-index: $zindex-modal - 1;
+    @include opacity(0);
+    @include transition(all 0.5s);
   }
 
-  .brand {
-    padding: 15px;
-    font-size: 18px;
-    line-height: 20px;
-    color: $navbar-default-brand-color;
-
-    .close {
-      position: relative;
-      top: -3px;
+  &.in {
+    ~ #overlay {
+      display: block;
+      @include opacity($modal-backdrop-opacity);
     }
   }
 }
 
-.off-canvas, .fixed, #off-canvas-wrapper {
-  transition: all .2s ease;
-}
+@mixin offcanvas-left {
+  left: -100% !important;
+  right: auto !important;
 
-.fixed, #off-canvas-wrapper {
-  transform: translate3d(0,0,0);
-}
-  
-.off-canvas-show-right {
-  overflow: hidden;
-  .off-canvas-right {
-    right: 0px;
+  ~ #main {
+    left: 0 !important;
+    right: 0 !important;
   }
-  .fixed, #off-canvas-wrapper {
-    transform: translate3d(-$off-canvas-width, 0, 0);
+
+  &.in {
+    left: 0 !important;
   }
 }
 
-.off-canvas-show-left {
-  overflow: hidden;
-  .off-canvas-left {
-    left: 0px;
+@mixin offcanvas-right {
+  right: -100% !important;
+  left: auto !important;
+
+  ~ #main {
+    left: 0 !important;
+    right: 0 !important;
   }
-  .fixed, #off-canvas-wrapper {
-    transform: translate3d($off-canvas-width, 0, 0);
+
+  &.in {
+    right: 0 !important;
   }
+}
+
+.offcanvas-left {
+  @include offcanvas;
+  @include offcanvas-left;
+}
+
+@media (max-width: $screen-xs-max) {
+  .offcanvas-left-xs {
+    @include offcanvas;
+    @include offcanvas-left;
+  }
+}
+@media (max-width: $screen-sm-max) {
+  .offcanvas-left-sm {
+    @include offcanvas;
+    @include offcanvas-left;
+  }
+}
+@media (max-width: $screen-md-max) {
+  .offcanvas-left-md {
+    @include offcanvas;
+    @include offcanvas-left;
+  }
+}
+.offcanvas-left-lg {
+  @include offcanvas;
+  @include offcanvas-left;
+}
+
+.offcanvas-right {
+  @include offcanvas;
+  @include offcanvas-right;
+}
+
+@media (max-width: $screen-xs-max) {
+  .offcanvas-right-xs {
+    @include offcanvas;
+    @include offcanvas-right;
+  }
+}
+@media (max-width: $screen-sm-max) {
+  .offcanvas-right-sm {
+    @include offcanvas;
+    @include offcanvas-right;
+  }
+}
+@media (max-width: $screen-md-max) {
+  .offcanvas-right-md {
+    @include offcanvas;
+    @include offcanvas-right;
+  }
+}
+.offcanvas-right-lg {
+  @include offcanvas;
+  @include offcanvas-right;
 }

@@ -1,19 +1,9 @@
-$devise-bg-gradient-start: #355069 !default;
-$devise-bg-gradient-end:   #5E7A9B !default;
-$devise-box-border-color:  #6ED5E4 !default;
+$devise-bg-gradient-start:        #355069 !default;
+$devise-bg-gradient-end:          #5E7A9B !default;
+$devise-box-border-color:         #6ED5E4 !default;
 
-$off-canvas-width:         300px   !default;
-$off-canvas-bg-color:      $navbar-default-bg !default;
-$off-canvas-border:        $navbar-default-border !default;
-$off-canvas-color:         #333333 !default;
-
-$off-canvas-inverse-bg:           $navbar-inverse-bg !default;
-$off-canvas-inverse-color:        $navbar-inverse-link-hover-color !default;
-$off-canvas-inverse-border:       $navbar-inverse-border !default;
-$off-canvas-inverse-brand-color:  $navbar-inverse-link-hover-color !default;
-
-$navbar-fixed-left-width:           250px;
-$navbar-fixed-left-collapsed-width: 75px;
-$header-height:                     50px;
-$header-bg:                         $navbar-default-bg;
-$header-border-color:               $navbar-default-bg;
+$navbar-fixed-width:              250px;
+$navbar-fixed-collapsed-width:    75px;
+$scroll-panel-header-height:      $navbar-height;
+$header-bg:                       $navbar-default-bg;
+$header-border-color:             $navbar-default-bg;
