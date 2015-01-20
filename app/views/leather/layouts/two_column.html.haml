@@ -1,0 +1,32 @@
+%nav.nav-menu.nav-menu-default.nav-menu-fixed-left.off-canvas.off-canvas-left#target
+  Nav
+
+#main
+  #right.full-width-xs
+    .scroll-panel
+      .scroll-panel-header
+        = link_to "#", class: "btn btn-default btn-sm pull-left", data: { toggle: "off-canvas", target: "#target" } do
+          %i.fa.fa-bars
+        = link_to "#", class: "btn btn-primary btn-sm pull-right", data: { toggle: "columns" } do
+          %i.fa.fa-plus 
+          New
+        %h3.scroll-panel-title Title
+      .scroll-panel-body
+        .list-group
+          - 10.times do
+            = link_to "List Group Item", "#", class: "list-group-item", data: { toggle: "columns" }
+
+  #left.hidden-xs.full-width-xs
+    .scroll-panel
+      .scroll-panel-header
+        = link_to "#", class: "btn btn-default btn-sm pull-left visible-xs", data: { toggle: "columns" } do
+          %i.fa.fa-chevron-left
+        %h3.scroll-panel-title Title
+      .scroll-panel-body
+        %p Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+
+        %p Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+
+        %p Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.
+
+        %p Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.

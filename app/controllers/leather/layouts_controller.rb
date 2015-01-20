@@ -4,6 +4,10 @@ module Leather
       set_tab :layouts
     end
 
+    def two_column
+      set_tab :layouts
+    end
+
     def three_column
       set_tab :layouts
     end
