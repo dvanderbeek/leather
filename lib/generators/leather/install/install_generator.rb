@@ -14,6 +14,10 @@ module Leather
       directory("views/pages", Rails.root.join("app", "views", "pages"))
     end
 
+    def copy_navigation
+      copy_file("_navigation.html.haml", Rails.root.join("app", "views", "application", "_navigation.html.haml"))
+    end
+
     def copy_bootstrap_variables
       copy_file("bootstrap_variables.css.scss", Rails.root.join("app", "assets", "stylesheets", "bootstrap_variables.css.scss"))
     end

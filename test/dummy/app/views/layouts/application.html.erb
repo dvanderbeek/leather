@@ -7,7 +7,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body class="<%= params[:controller].split("/").join("_") %> <%= params[:action] %> <%= yield(:body_class) %>">
+<body class="<%= params[:controller].split("/").join("_") %> <%= params[:action] %> <%= yield :extra_body_classes %>">
   <%= render 'navigation' %>
   <%= yield %>
 </body>
