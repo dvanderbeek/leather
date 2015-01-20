@@ -6,7 +6,7 @@ $ ->
     target = $(this).data("target")
     $(target).toggleClass("in")
 
-  $("body").on "click, touchstart", "#off-canvas-overlay", (e) ->
+  $("body").on "click touchstart", "#off-canvas-overlay", (e) ->
     e.preventDefault()
     $(".off-canvas.in").removeClass("in")
 
