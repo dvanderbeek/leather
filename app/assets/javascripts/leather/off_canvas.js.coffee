@@ -1,5 +1,5 @@
 $ ->
-  $("body").on "click, touchstart", "[data-toggle='off-canvas']", (e) ->
+  $("body").on "click", "[data-toggle='off-canvas']", (e) ->
     e.preventDefault()
     if $("#off-canvas-overlay").length == 0
       $("#main").before("<div id='off-canvas-overlay'></div>")
@@ -10,7 +10,7 @@ $ ->
     e.preventDefault()
     $(".off-canvas.in").removeClass("in")
 
-  $("body").on "click, touchstart", "[data-toggle='columns']", (e) ->
+  $("body").on "click", "[data-toggle='columns']", (e) ->
     e.preventDefault()
     $('#left').toggleClass('hidden-xs')
     $('#right').toggleClass('hidden-xs')
