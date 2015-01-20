@@ -1,29 +1,29 @@
-@mixin offcanvas {
+@mixin off-canvas {
   @include transition(all 0.3s);
   z-index: $zindex-modal;
 
-  ~ #overlay {
+  ~ #off-canvas-overlay {
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    display: none;
+    visibility: hidden;
     background-color: $modal-backdrop-bg;
     z-index: $zindex-modal - 1;
     @include opacity(0);
-    @include transition(all 0.5s);
+    @include transition(all 0.3s);
   }
 
   &.in {
-    ~ #overlay {
-      display: block;
+    ~ #off-canvas-overlay {
+      visibility: visible;
       @include opacity($modal-backdrop-opacity);
     }
   }
 }
 
-@mixin offcanvas-left {
+@mixin off-canvas-left {
   left: -100% !important;
   right: auto !important;
 
@@ -37,7 +37,7 @@
   }
 }
 
-@mixin offcanvas-right {
+@mixin off-canvas-right {
   right: -100% !important;
   left: auto !important;
 
@@ -51,58 +51,58 @@
   }
 }
 
-.offcanvas-left {
-  @include offcanvas;
-  @include offcanvas-left;
+.off-canvas-left {
+  @include off-canvas;
+  @include off-canvas-left;
 }
 
 @media (max-width: $screen-xs-max) {
-  .offcanvas-left-xs {
-    @include offcanvas;
-    @include offcanvas-left;
+  .off-canvas-left-xs {
+    @include off-canvas;
+    @include off-canvas-left;
   }
 }
 @media (max-width: $screen-sm-max) {
-  .offcanvas-left-sm {
-    @include offcanvas;
-    @include offcanvas-left;
+  .off-canvas-left-sm {
+    @include off-canvas;
+    @include off-canvas-left;
   }
 }
 @media (max-width: $screen-md-max) {
-  .offcanvas-left-md {
-    @include offcanvas;
-    @include offcanvas-left;
+  .off-canvas-left-md {
+    @include off-canvas;
+    @include off-canvas-left;
   }
 }
-.offcanvas-left-lg {
-  @include offcanvas;
-  @include offcanvas-left;
+.off-canvas-left-lg {
+  @include off-canvas;
+  @include off-canvas-left;
 }
 
-.offcanvas-right {
-  @include offcanvas;
-  @include offcanvas-right;
+.off-canvas-right {
+  @include off-canvas;
+  @include off-canvas-right;
 }
 
 @media (max-width: $screen-xs-max) {
-  .offcanvas-right-xs {
-    @include offcanvas;
-    @include offcanvas-right;
+  .off-canvas-right-xs {
+    @include off-canvas;
+    @include off-canvas-right;
   }
 }
 @media (max-width: $screen-sm-max) {
-  .offcanvas-right-sm {
-    @include offcanvas;
-    @include offcanvas-right;
+  .off-canvas-right-sm {
+    @include off-canvas;
+    @include off-canvas-right;
   }
 }
 @media (max-width: $screen-md-max) {
-  .offcanvas-right-md {
-    @include offcanvas;
-    @include offcanvas-right;
+  .off-canvas-right-md {
+    @include off-canvas;
+    @include off-canvas-right;
   }
 }
-.offcanvas-right-lg {
-  @include offcanvas;
-  @include offcanvas-right;
+.off-canvas-right-lg {
+  @include off-canvas;
+  @include off-canvas-right;
 }
