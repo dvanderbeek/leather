@@ -1,0 +1,8 @@
+.nav-menu-header
+  = link_to "Leather", root_url, class: "nav-menu-brand"
+%ul.nav.nav-menu-nav
+  %li= link_to "UI Kit", ui_kit_url
+  %li= link_to "Components", components_url
+  %li{class: ("active" if current_page?(admin_layout_url))}= link_to "Admin Layout", admin_layout_url
+  %li{class: ("active" if current_page?(two_column_layout_url))}= link_to "Two Column Layout", two_column_layout_url
+  %li{class: ("active" if current_page?(three_column_layout_url))}= link_to "Three Column Layout", three_column_layout_url

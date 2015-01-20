@@ -1,8 +1,18 @@
 %nav.nav-menu.nav-menu-default.nav-menu-fixed-left.off-canvas.off-canvas-left#off-canvas-left
-  Nav
+  .nav-menu-header
+    = link_to "Brand", "#", class: "nav-menu-brand"
+  %ul.nav.nav-menu-nav
+    %li= link_to "Link", "#"
+    %li.active= link_to "Active Link", "#"
+    %li= link_to "Link", "#"
 
 %nav.nav-menu.nav-menu-default.nav-menu-fixed-right.off-canvas.off-canvas-right#off-canvas-right
-  Nav
+  .nav-menu-header
+    = link_to "Brand", "#", class: "nav-menu-brand"
+  %ul.nav.nav-menu-nav
+    %li= link_to "Link", "#"
+    %li.active= link_to "Active Link", "#"
+    %li= link_to "Link", "#"
 
 #main
   .jumbotron

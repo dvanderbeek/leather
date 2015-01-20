@@ -1,8 +1,11 @@
-= navbar "Leather", page_path("home"), container_mode: :with, class: "navbar-default navbar-static-top" do
+= navbar "Leather", page_path("home"), container_mode: :with, class: "navbar-default navbar-static-top no-margin" do
   = nav_list do
-    = nav_item 'Home', page_path("home")
     = nav_item 'UI Kit', leather.ui_kit_path
     = nav_item 'Components', leather.components_path
+    = dropdown_nav_item 'Layouts', '#' do
+      = nav_item 'Admin', leather.admin_layout_path
+      = nav_item 'Two Column', leather.two_column_layout_path
+      = nav_item 'Three Column', leather.three_column_layout_path
   = nav_list class: 'navbar-right' do
     - if user_signed_in?
       = nav_item 'Sign Out', destroy_user_session_path, method: :delete

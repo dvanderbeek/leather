@@ -16,12 +16,19 @@
           = link_to title, brand_link, :class => 'navbar-brand'
         .collapse.navbar-collapse{ id: "navbar-#{id}" }
           = block
-  - when :no_collapse
+  - when :fluid
     %nav.navbar{ class: html_options[:class] }
-      .container
+      .container-fluid
         .navbar-header
+          %button.navbar-toggle{ data: { toggle:'collapse', target:"#navbar-#{id}" }, type: 'button'}
+            %span.sr-only
+              Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
           = link_to title, brand_link, :class => 'navbar-brand'
-        = block
+        .collapse.navbar-collapse{ id: "navbar-#{id}" }
+          = block
   - when :in
     .container
       .row.clearfix

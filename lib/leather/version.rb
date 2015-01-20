@@ -1,3 +1,3 @@
 module Leather
-  VERSION = "0.2.29"
+  VERSION = "3.2.0"
 end

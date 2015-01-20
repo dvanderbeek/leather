@@ -1,5 +1,20 @@
+/ = navbar "Leather", page_path("home"), container_mode: :fluid, class: "navbar-default navbar-static-top no-margin" do
+/   = nav_list do
+/     = nav_item 'UI Kit', leather.ui_kit_path
+/     = nav_item 'Components', leather.components_path
+/     = dropdown_nav_item 'Layouts', '#' do
+/       = nav_item 'Admin', leather.admin_layout_path
+/       = nav_item 'Two Column', leather.two_column_layout_path
+/       = nav_item 'Three Column', leather.three_column_layout_path
+/   = nav_list class: 'navbar-right' do
+/     - if user_signed_in?
+/       = nav_item 'Sign Out', destroy_user_session_path, method: :delete
+/     - else
+/       = nav_item 'Sign In', new_user_session_path
+/       = nav_item 'Sign Up', new_user_registration_path
+
 %nav.nav-menu.nav-menu-default.nav-menu-fixed-left.off-canvas.off-canvas-left-sm#target
-  Nav
+  = render 'links'
 
 #main
   #right.full-width-xs
