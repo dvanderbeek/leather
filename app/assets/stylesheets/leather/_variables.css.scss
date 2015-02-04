@@ -2,6 +2,6 @@ $devise-bg-gradient-start:        #355069 !default;
 $devise-bg-gradient-end:          #5E7A9B !default;
 $devise-box-border-color:         #6ED5E4 !default;
 
-$navbar-fixed-width:              350px;
-$navbar-fixed-collapsed-width:    75px;
-$scroll-panel-header-height:      $navbar-height;
+$navbar-fixed-width:              350px !default;
+$navbar-fixed-collapsed-width:    75px !default;
+$scroll-panel-header-height:      $navbar-height !default;
