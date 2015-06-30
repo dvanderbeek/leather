@@ -67,7 +67,7 @@ You can also visit `localhost:3000/components` to view some additional bootstrap
 
 ![Screenshot](https://raw.githubusercontent.com/dvanderbeek/leather/master/components.png)
 
-### Devise Helpers
+### Bootstrap Helpers
 
 Leather includes helper methods and view partials to help make it easy to use Bootstrap components in your views. See the wiki for instructions and examples.
 
