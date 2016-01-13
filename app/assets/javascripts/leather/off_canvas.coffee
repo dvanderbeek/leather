@@ -12,5 +12,5 @@ $ ->
 
   $("body").on "click", "[data-toggle='columns']", (e) ->
     e.preventDefault()
-    $('#left').toggleClass('hidden-xs')
     $('#right').toggleClass('hidden-xs')
+    $('#left').toggleClass('hidden-xs')
