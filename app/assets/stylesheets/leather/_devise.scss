@@ -45,7 +45,7 @@
     background: #ffffff;
     box-shadow: 1px 1px 3px $gray-dark;
     padding: 40px 40px 20px;
-    border-top: 6px solid $devise-box-border-color;
+    
     #error_explanation {
       @extend .alert;
       @include alert-variant($alert-danger-bg, $alert-danger-border, $alert-danger-text);
