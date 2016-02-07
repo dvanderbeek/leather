@@ -65,7 +65,7 @@ The leather:install generator will also copy the bootstrap-sass variables file t
 
 You can also visit `localhost:3000/components` to view some additional bootstrap-based components to help get your static pages looking nice quickly. Check out the source of the `app/views/leather/application/components.html.haml` file to see the markup. Styles will be included if you add the leather.css.scss file to your app's stylesheet.
 
-![Screenshot](https://raw.githubusercontent.com/dvanderbeek/leather/0b4bd5378104544f50f4ee56f452f017c966f0a8/components.png)
+![Screenshot](https://raw.githubusercontent.com/dvanderbeek/leather/master/components.png)
 
 ### Bootstrap Helpers
 
