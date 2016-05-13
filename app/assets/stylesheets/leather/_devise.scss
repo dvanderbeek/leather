@@ -6,7 +6,7 @@
   }
 }
 
-.devise_passwords.edit {
+.devise_passwords.edit, .devise_passwords.update {
   @extend .devise;
 }
 
